@@ -1,0 +1,17 @@
+
+# compiled c files:
+*.pyc
+
+# other stuff
+*.directory
+
+# data
+/data/*
+
+#eric
+*.e4q
+*.e4t
+*.e4p
+
+#netbeans
+/nbproject/*

@@ -1,0 +1,10 @@
+# Use # to comment out a line.
+# All lines after / will be ignored.
+# Specify one module per line.
+command
+console
+skype
+core
+dynamic_core
+dynamic_syntax
+echo
