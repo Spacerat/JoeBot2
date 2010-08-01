@@ -11,7 +11,7 @@ class SkypeInterface(modules.Interface):
         self.message_status = MessageStatus
         self.skype = Skype
         self.bot_handle = Skype.CurrentUser.Handle
-        self.prefix="."
+        self.prefix="!"
         self.name=''
 
     def _sanitisetext(self,text):
