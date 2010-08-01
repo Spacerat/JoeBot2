@@ -9,7 +9,7 @@ def command_load(interface,command,args):
         interface.reply("Loaded %s"%args)
     except ImportError, e:
         interface.reply(str(e))
-    except ModuleAlreadyLoaded, e:
+    except modules.ModuleAlreadyLoaded, e:
         interface.reply(str(e))
 
 def command_unload(interface,command,args):
