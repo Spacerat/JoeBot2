@@ -74,6 +74,7 @@ class SkypeInterface(modules.Interface):
     def users(self):
         r = {}
         for u in self.message.Chat.Members:
+            if u.FullName.strip()=='': continue
             r[u.FullName]= u.Handle
 
         return r
@@ -114,9 +115,10 @@ def start():
     skype.Attach()
 
 def command_skype(interface,hook,args):
+    """!skype - Starts the skype client."""
     start()
 
 def init():
     start()
 
-command.ComHook('skype',command_skype,name="EchoBot")
+command.ComHook('skype',command_skype,name="EchoBot",security=4)
