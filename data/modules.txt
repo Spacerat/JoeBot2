@@ -7,4 +7,4 @@ skype
 core
 dynamic_core
 dynamic_syntax
-echo
+dynamic_storage
