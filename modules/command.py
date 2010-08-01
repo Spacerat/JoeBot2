@@ -5,7 +5,7 @@ com_hooks = {}
 
 class ComHook:
 
-    def __init__(self,hook,callback,name='',hidden=False,security=1):
+    def __init__(self,hook,callback,name='',hidden=False,security=1,data=None):
         frm = inspect.stack()[1]
         mod = inspect.getmodule(frm[0])
         self.name = name
@@ -14,11 +14,12 @@ class ComHook:
         self.security=security
         self.hook = hook
         self.module = mod.__name__
+        self.data=data
         com_hooks[hook]=self
 
-    def run(self, interface,command, args):
+    def run(self, interface, args):
         #threading.Thread(target=com_hooks[self.hook],name=self.hook,args=(interface,command,args)).start()
-        self.callback(interface,command,args)
+        self.callback(interface,self,args)
 
 def message_hook(text,interface):
     if text!="":
@@ -35,7 +36,7 @@ def message_hook(text,interface):
                 #elif c.Admin == True and security.GetAdminForHandle(Interface,Interface.UserAddress)==False:
                 #    Interface.Reply("You must have admin access in this conversation to use this command.")
                 #else:
-                c.run(interface,command, body)
+                c.run(interface, body)
 
 def unload_hook(module):
     for x in com_hooks.keys():

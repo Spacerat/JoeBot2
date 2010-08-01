@@ -23,13 +23,16 @@ class Parser:
     rcont='>'
 
 class TagContext():
-    def __init__(self, args='', strict=True):
+    def __init__(self, args='', strict=True,i=None):
         self.strict = strict
         self.args = args
         self.vars = {
             'args': args,
             '__builtins__': None
         }
+        if i:
+            self.vars['sender']=i.user_name
+            self.vars['users']=i.users.keys()
 
 class Node:
 
@@ -164,7 +167,7 @@ def parse_markup(line):
 
     for c in line:
         #tags []
-        if c==Parser.ltag or c==Parser.lcont:
+        if c==(Parser.ltag or c==Parser.lcont) and in_tag>0:
             in_tag+=1
         if c==Parser.ltag and in_tag==False:
             current_node.add_child(text)
@@ -209,9 +212,7 @@ def tag_root(node,context):
     return node.process_children(context)
 
 def command_eval(interface,hook,args):
-    context = TagContext()
-    context.vars['sender']=interface.user_name
-    context.vars['users']=interface.users.keys()
+    context = TagContext(i=interface)
     interface.reply(parse_markup(args).process(context))
 
 
