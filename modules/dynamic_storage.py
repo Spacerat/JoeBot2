@@ -1,66 +1,107 @@
 
 import command
-import json
 from libs import logging, data
 import dynamic_core
+from datetime import datetime
 
 class CannotModifyStdFuncsError(Exception): pass
 class InvalidFuncNameError(Exception): pass
-
-def get_datasource(flag=''):
-    url = "data/commands.txt"
-    try:
-        f = open(url)
-    except:
-        dict={}
-        f = open(url,'w')
-        json.dump(dict,f)
-        f.close()
-    f = open(url,'r')
-    data = json.load(f)
-    f.close()
-    if flag: f = open(url,flag)
-    return {'file':f,'data':data}
+class DynamicMetadataTagError(Exception): pass
 
 def load_commands():
-    data = get_datasource()['data']
-    for c in data:
-        logging.info("Adding command %s as %s"%(c,data[c]))
-        command.ComHook(c,command_runfunc,name="%sBot"%c,data=data[c])
+    #numcommands = data.query("SELECT COUNT(DISTINCT name) FROM dynamic")[0][0]
+    #results = data.query("SELECT DISTINCT name, version, source FROM dynamic ORDER BY name, version DESC LIMIT %u"%numcommands)
+    results = data.query("SELECT version,name, source FROM dynamic GROUP BY name")
+    for result in results:
+        command.ComHook(result[1],command_runfunc,name="%sBot"%result[1],data=result[2])
+        logging.info(result[0],result[1])
 
-
-def add_command(name, line):
-    data = get_datasource('w')
+def add_command(name, line, author):
     logging.info("Attempt to add function %s"%name)
+
+    version = 0
     if "!" in name:
         raise InvalidFuncNameError, name
-    if name in data['data']:
-        logging.warn("Dynamic command %s already exists!"%name)
+    if find_command(name):
+        #logging.warn("Dynamic command %s already exists!"%name)
+        version=find_command(name)[0][0]
     elif name in command.com_hooks:
         raise CannotModifyStdFuncsError, name
-    data['data'][name] = line
-    json.dump(data['data'],data['file'])
+
+
+    data.query("INSERT INTO dynamic VALUES (?,?,?,?,'',?)",(version+1,name,line,datetime.now().strftime('%Y-%m-%d %H:%M:%S'),author))
     command.ComHook(name,command_runfunc,name='%sBot'%name,data=line)
-    data['file'].close()
-    return True
+    
+    return version+1
 
 def find_command(name):
-    commands = get_datasource()
-    return commands['data'].get('name')
+    result = data.query("SELECT * FROM dynamic WHERE name = ? ORDER BY version DESC",(name,))
+    return result
+
+def command_from_node(node,context):
+    name=node.attribute
+    if node.attribute=="":
+        name = context.command
+    if name=="": return "Specify a tag name."
+
+    com = find_command(name)
+    if not com:
+        name = eval(name,context.vars)
+        com = find_command(name)
+    if com:
+        return com
+    else:
+        return "Invalid tag name %s."%name
 
 def command_addfunc(interface,hook,args):
+    """!addfunc name:code - Adds or updates a dynamic function"""
     func = args.partition(":")
     name = func[0].strip()
     line = func[2].strip()
-    if add_command(name,line):
+    version = add_command(name,line,interface.user_address)
+    if version==0:
+        interface.reply("Failed to add command %s"%name)
+    elif version==1:
         interface.reply("Command %s added successfully."%name)
+    else:
+        interface.reply("Command %s updated to version %u"%(name,version))
+
+def command_documentfunc(interface,hook,args):
+    #todo
+    pass
 
 def command_runfunc(interface,hook,args):
     logging.info("Running dynamic function %s"%hook.hook)
-    context = dynamic_core.TagContext(i=interface,args=args)
+    context = dynamic_core.TagContext(i=interface,args=args,command=hook.hook)
     interface.reply(dynamic_core.parse_markup(hook.data).process(context))
 
+
+def tag_source(node,context):
+    com = command_from_node(node,context)
+    return com[0][2]
+
+def tag_version(node,context):
+    com = command_from_node(node,context)
+    return com[0][0]
+
+def tag_author(node,context):
+    com = command_from_node(node,context)
+    return com[-1][5]
+
+def tag_updater(node,context):
+    com = command_from_node(node,context)
+    return com[0][5]
+
 def init():
+    data.query('''CREATE TABLE IF NOT EXISTS dynamic
+    (version INTEGER, name TEXT, source TEXT, timestamp DATE, help TEXT, author TEXT,
+    PRIMARY KEY (version, name))''')
+
     load_commands()
 
 command.ComHook('addfunc',command_addfunc,security=2)
+#command.ComHook('documentfunc',command_documentfunc,security=2)
+dynamic_core.register_tag('dyn_source',tag_source)
+dynamic_core.register_tag('dyn_version',tag_version)
+dynamic_core.register_tag('dyn_author',tag_author)
+dynamic_core.register_tag('dyn_updater',tag_updater)

@@ -23,16 +23,21 @@ class Parser:
     rcont='>'
 
 class TagContext():
-    def __init__(self, args='', strict=True,i=None):
+    def __init__(self, args='', command='', strict=True,i=None):
         self.strict = strict
         self.args = args
+        self.command = command
         self.vars = {
             'args': args,
+            'arglist': args.split(),
+            'command': command,
             '__builtins__': None
         }
         if i:
             self.vars['sender']=i.user_name
             self.vars['users']=i.users.keys()
+        for x, arg in enumerate(args.split()):
+            self.vars["arg%s"%x]=arg
 
 class Node:
 
@@ -74,7 +79,7 @@ class TagNode(Node):
             return registered_tags[self.name](self,context)
         else:
             if context.strict == True:
-                raise ParseError, "%s is not a registered tag name."%self.name
+                return "[%s is not a registered tag name.]"%self.name
             else:
                 return self.tag
 
@@ -133,7 +138,9 @@ class ContainerNode(Node):
         return 'cont'
 
 def stringify(string):
-    if isinstance(string, basestring):
+    if string is None:
+        return ''
+    elif isinstance(string, basestring):
         return string
     else:
         return str(string)
@@ -212,10 +219,9 @@ def tag_root(node,context):
     return node.process_children(context)
 
 def command_eval(interface,hook,args):
+    """!eval expression - Evaluate an expression."""
     context = TagContext(i=interface)
     interface.reply(parse_markup(args).process(context))
-
-
 
 def hook_unloaded(module):
     if module in module_registrations:
