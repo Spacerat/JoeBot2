@@ -8,3 +8,5 @@ core
 dynamic_core
 dynamic_syntax
 dynamic_storage
+words
+lastfm
