@@ -1,17 +1,17 @@
 
 import sqlite3
 
-
-connection = sqlite3.connect('data/database')
-
-def query(sql):
-    curs = conn.cursor()
-    result = curs.execute(q)
+def query(sql,args=None):
+    connection = sqlite3.connect('data/database')
+    curs = connection.cursor()
+    result = None
+    if args: result = curs.execute(sql, args)
+    else: result = curs.execute(sql)
     if result:
         if sql.startswith("INSERT"):
-            conn.commit()
-            return cursor.lastrowid
+            connection.commit()
+            return curs.lastrowid
         else:
-            return cursor.fetchall()
+            return curs.fetchall()
     else:
         connection.commit()
