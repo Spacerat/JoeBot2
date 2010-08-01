@@ -29,7 +29,7 @@ def tag_if(node,context):
         for child in node.children:
             if child.name=='else':
                 break
-            value+=child.process(context)
+            value+=stringify(child.process(context))
         return value
     else:
         startprocess=False
@@ -38,13 +38,37 @@ def tag_if(node,context):
             if startprocess:
                 if child.name=='else' or child.name=='elif':
                     break
-                value+=child.process(context)
+                value+=stringify(child.process(context))
             elif child.name=='else':
                 startprocess=True
             elif child.name=='elif':
                 test = eval(child.attribute,context.vars)
                 if test: startprocess=True
         return value
+
+def tag_for(node,context):
+    com = node.attribute.partition('in')
+    if not (com[0].strip() and com[2].strip()):
+        return "[use for x in list]"
+
+    varname = com[0].strip()
+    listname = com[2].strip()
+
+    list = eval(listname,context.vars)
+    if len(list)>50:
+        return "[List is too large.]"
+
+    prev_value = context.vars.get(varname,None)
+    r=''
+    for x in list:
+        context.vars[varname] = x
+        r+=node.process_children(context)
+    if prev_value:
+        context.vars[varname]=prev_value
+    else:
+        del context.vars[varname]
+    return r
+
 
 def tag_random(node,context):
     article=None
@@ -58,3 +82,4 @@ def init():
     register_tag('choose',tag_chose)
     register_tag('if',tag_if)
     register_tag('random',tag_random)
+    register_tag('for',tag_for)
