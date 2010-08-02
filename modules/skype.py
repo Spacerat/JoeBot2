@@ -115,7 +115,7 @@ def start():
     skype.Attach()
 
 def command_skype(interface,hook,args):
-    """!skype - Starts the skype client."""
+    """~skype - Starts the skype client."""
     start()
 
 def init():
