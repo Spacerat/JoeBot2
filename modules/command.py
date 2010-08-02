@@ -15,11 +15,21 @@ class ComHook:
         self.hook = hook
         self.module = mod.__name__
         self.data=data
+        self._help=''
         com_hooks[hook]=self
 
     def run(self, interface, args):
         #threading.Thread(target=com_hooks[self.hook],name=self.hook,args=(interface,command,args)).start()
         self.callback(interface,self,args)
+
+    def help(self,prefix="!",replace="~"):
+        h = self._help
+        if not h: h = self.callback.__doc__
+        if not h: return
+        return h.replace(replace,prefix)
+
+    def set_help(self,value):
+        self._help = value
 
 def message_hook(text,interface):
     if text!="":
@@ -43,6 +53,8 @@ def unload_hook(module):
         if com_hooks[x].module == "modules.%s"%module:
             del com_hooks[x]
 
+def get_command(name):
+    return com_hooks.get(name,None)
 
 def init():
     add_hook('message',message_hook)
