@@ -1,7 +1,7 @@
 
 import random
 import os
-from dynamic_core import register_tag
+from dynamic_core import register_tag, stringify
 
 #Almost entirely by Katharine (a modifcation or two by me):
 #http://github.com/Katharine/KathBot3/blob/master/modules/dynamic.py#L710
@@ -13,7 +13,10 @@ def word_from_file(path):
     f = open(path)
     f.seek(pos)
     while f.read(1) != "\n":
-        f.seek(-2, os.SEEK_CUR)
+        try:
+            f.seek(-2, os.SEEK_CUR)
+        except IOError:
+            return word_from_file(path)
     word = ''
     while True:
         char = f.read(1)
@@ -22,9 +25,8 @@ def word_from_file(path):
         word += char
     return word.strip()
 
-def tag_noun(node, context):
-    word = word_from_file('data/nouns')
-    attribs = node.attribute.split()
+def do_noun(word,attribs):
+    
     if 'plural' in attribs:
         vowels = 'aeiou'
         if word[-1] == 'y' and word[-2] not in vowels:
@@ -41,6 +43,11 @@ def tag_noun(node, context):
     else:
         return word
 
+def tag_noun(node, context):
+    return do_noun(word_from_file('data/nouns'),node.attribute.split())
+
+def tag_insult(node,context):
+    return do_noun(word_from_file('data/insults'),node.attribute.split())
 
 def tag_verb(node, context):
     verb = word_from_file('data/verbs')
@@ -96,9 +103,25 @@ def tag_interjection(node, context):
 def tag_place(node, context):
         return word_from_file('data/places')
 
-register_tag('noun',tag_noun)
-register_tag('verb',tag_verb)
-register_tag('adjective',tag_adjective)
-register_tag('adverb',tag_adverb)
-register_tag('interjection',tag_interjection)
-register_tag('place',tag_place)
+def tag_indefinite(node,context):
+    if len(node.children)==0: return
+    phrase = node.process_children(context)
+    if phrase[0].lower() in "aeiou":
+        return "an "+phrase
+    else:
+        return "a "+phrase
+
+def tag_body(node,context):
+    word = word_from_file('data/bodyparts')
+    return word
+
+def init():
+    register_tag('noun',tag_noun)
+    register_tag('verb',tag_verb)
+    register_tag('adjective',tag_adjective)
+    register_tag('adverb',tag_adverb)
+    register_tag('interjection',tag_interjection)
+    register_tag('place',tag_place)
+    register_tag('bodypart',tag_body)
+    register_tag('indefinite',tag_indefinite)
+    register_tag('insult',tag_insult)
