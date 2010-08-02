@@ -8,5 +8,7 @@ core
 dynamic_core
 dynamic_syntax
 dynamic_storage
+misctags
 words
 lastfm
+wunderground
