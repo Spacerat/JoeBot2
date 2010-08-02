@@ -7,6 +7,7 @@ import os
 import re
 import modules
 import command
+import random
 
 registered_tags={}
 module_registrations={}
@@ -27,17 +28,28 @@ class TagContext():
         self.strict = strict
         self.args = args
         self.command = command
+        self.arglist = args.split()
+
         self.vars = {
             'args': args,
-            'arglist': args.split(),
+            'int': int,
+            'str': str,
+            'arglist': self.arglist,
+            'range': range,
             'command': command,
             '__builtins__': None
         }
         if i:
+            self.interface = i
             self.vars['sender']=i.user_name
+            self.vars['handle']=i.user_address
             self.vars['users']=i.users.keys()
+            self.vars['prefix']=i.prefix
+
         for x, arg in enumerate(args.split()):
             self.vars["arg%s"%x]=arg
+
+        modules.call_hook('context',self)
 
 class Node:
 
@@ -211,6 +223,12 @@ def parse_markup(line):
 
     return root
 
+def get_var(name,context):
+    if name in context.vars:
+        return context.vars[name]
+    else:
+        return name
+
 #certain modules may want to reserve tags which do nothing.
 def tag_null(node,context):
     pass
@@ -218,8 +236,11 @@ def tag_null(node,context):
 def tag_root(node,context):
     return node.process_children(context)
 
+def tag_set(node,context):
+    context.vars[node.attribute] = node.process_children(context)
+
 def command_eval(interface,hook,args):
-    """!eval expression - Evaluate an expression."""
+    """~eval expression - Evaluate an expression."""
     context = TagContext(i=interface)
     interface.reply(parse_markup(args).process(context))
 
@@ -233,4 +254,5 @@ def hook_unloaded(module):
 def init():
     modules.add_hook('unloaded',hook_unloaded)
     register_tag('root',tag_root)
+    register_tag('set',tag_set)
     command.ComHook('eval',command_eval,name='EvalBot')

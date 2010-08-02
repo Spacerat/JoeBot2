@@ -7,7 +7,7 @@ def tag_chose(node,context):
     choices = []
     choice = []
     for child in node.children:
-        if child.name=='or':
+        if child.name=='or' or child.name=='|':
             choices.append(choice)
             if child.type=='cont':
                 choices.append(child.children)
@@ -75,11 +75,32 @@ def tag_random(node,context):
     seed()
     if node.attribute in context.vars:
         article=context.vars[node.attribute]
+    elif ":" in node.attribute:
+        s = node.attribute.partition(":")
+        article = range(int(s[0]),int(s[2]))
+    else:
+        article = eval(node.attribute,context.vars)
     if article:
         return article[randint(0,len(article)-1)]
+
+def tag_try(node,context):
+    if node.attribute in context.vars:
+        if context.vars[node.attribute]:
+            return context.vars[node.attribute]
+    '''
+        try:
+            e = eval(node.attribute,context.vars)
+        except AttributeError:
+            pass
+        else:
+            if e != None:
+                return e
+    '''
+    return node.process_children(context)
 
 def init():
     register_tag('choose',tag_chose)
     register_tag('if',tag_if)
     register_tag('random',tag_random)
     register_tag('for',tag_for)
+    register_tag('try',tag_try)
