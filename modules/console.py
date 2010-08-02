@@ -16,6 +16,7 @@ class ConsoleInterface(modules.Interface):
 
     def reply(self, text,edit=False):
         outp = text
+        if not text: return
         if self.name<>"": outp=self.name+": "+outp
         #outp = unicode(outp,errors='ignore')
         print outp.encode('ascii','ignore')
