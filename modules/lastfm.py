@@ -1,6 +1,7 @@
 
 import dynamic_core
 import command
+from sqlite3 import IntegrityError
 from libs.stringsafety import *
 from libs import data
 
@@ -55,20 +56,17 @@ def listening(name):
     return get_recent_track(alias_to_lastfm(name))
 
 def add_user_alias(alias, username):
-    exists = data.query('SELECT alias,username FROM lastfm_alias WHERE alias = ?',(alias.lower(),))
-    if exists:
-        raise AliasAlreadyExistsError, alias
+
+    if get_recent_track(username):
+        return data.query('INSERT INTO lastfm_alias VALUES (?,?)',(alias.lower(),username))
     else:
-        if get_recent_track(username):
-            return data.query('INSERT INTO lastfm_alias VALUES (?,?)',(alias.lower(),username))
-        else:
-            raise LastfmFetchFailed, alias
+        raise LastfmFetchFailed, alias
 
 def tag_fetchfm(node,context):
-    track = listening(eval(node.attribute,context.vars))
+    track = listening(dynamic_core.get_var(node.attribute,context))
     if not track:
         context.vars['lastfm_success']=False
-        return "[Unable to fetch Last.fm data for %s]"%node.attribute
+        return ""#[Unable to fetch Last.fm data for %s]"%node.attribute
     context.vars['lastfm_success']=True
     context.vars['lastfm_album']=track['album']['#text']
     context.vars['lastfm_track']=track['name']
@@ -77,11 +75,12 @@ def tag_fetchfm(node,context):
     context.vars['lastfm_url']=track['url']
 
 def command_addfm(interface,hook,args):
+    """~addfm alias lastfm_username - Adds a new alias for the given username"""
     if len(args.split())==2:
         args = args.split()
         try:
             result = add_user_alias(args[0],args[1])
-        except AliasAlreadyExistsError:
+        except IntegrityError:
             interface.reply("Cannot overwrite %s."%(args[0]))
         except LastfmFetchFailed:
             interface.reply("%s does not seem to be a valid Last.fm username."%args[1])
