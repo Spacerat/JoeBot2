@@ -1,5 +1,6 @@
 
 import re
+from BeautifulSoup import BeautifulStoneSoup
 
 # Courtasy of Katharine :3
 
@@ -21,8 +22,7 @@ def escapeurl(url,plus=False):
     return output
 
 def FormatHTML(data):
-    p = re.compile(r'<.*?>')
-    data = p.sub('', data)
-    data = data.replace("&quot;",'"')
-    data = data.replace("&#39;","'")
+    data=unicode(BeautifulStoneSoup(data,convertEntities=BeautifulStoneSoup.HTML_ENTITIES ))
+    data = re.compile(r'<br.*?>').sub('\n',data)
+    data = re.compile(r'<.*?>').sub('', data)
     return data
