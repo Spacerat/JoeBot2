@@ -12,3 +12,8 @@ misctags
 words
 lastfm
 wunderground
+quotes
+omegle
+google
+#urbandictionary
+web
