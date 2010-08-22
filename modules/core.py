@@ -18,6 +18,7 @@ def command_unload(interface,command,args):
     interface.reply("Unloaded %s"%args)
 
 def command_reload(interface,command,args):
+    """~reload modname - Reload a module."""
     command_unload(interface,command,args)
     command_load(interface,command,args)
 
