@@ -44,12 +44,15 @@ def do_noun(word,attribs):
         return word
 
 def tag_noun(node, context):
+    """[noun [plural/a]] - Get a noun. Use the attribute "plural" for plurals, and "a" for indefinites."""
     return do_noun(word_from_file('data/nouns'),node.attribute.split())
 
 def tag_insult(node,context):
+    """[insult [plural/a]] - Get an insult. Use the attribute "plural" for plurals, and "a" for indefinites."""
     return do_noun(word_from_file('data/insults'),node.attribute.split())
 
 def tag_verb(node, context):
+    """[verb [root/first/second/third/past/pastpart/presentpart/gerund]] - Get a verb, with a tense. Default tense is root."""
     verb = word_from_file('data/verbs')
     tense = node.attribute or 'root'
     if tense == 'root':
@@ -85,6 +88,7 @@ def tag_verb(node, context):
             return '[unknown tense "%s"]' % tense
 
 def tag_adjective(node, context):
+    """[adjective [a]] - Get an adjective. Attribute "a" for indefinites."""
     if node.attribute=="a":
         word = word_from_file('data/adjectives')
         if word[0] in 'aeiou':
@@ -95,15 +99,19 @@ def tag_adjective(node, context):
         return word_from_file('data/adjectives')
 
 def tag_adverb(node, context):
+    """[adverb] - Get an adverb."""
     return word_from_file('data/adverbs')
 
 def tag_interjection(node, context):
+    """[interjection] - Get an interjection!"""
     return word_from_file('data/interjections')
 
 def tag_place(node, context):
-        return word_from_file('data/places')
+    """[place] - Get a place."""
+    return word_from_file('data/places')
 
 def tag_indefinite(node,context):
+    """<indefinite>Phrase</indefinite> - Prepend a or an to phrase accordingly."""
     if len(node.children)==0: return
     phrase = node.process_children(context)
     if phrase[0].lower() in "aeiou":
@@ -112,6 +120,7 @@ def tag_indefinite(node,context):
         return "a "+phrase
 
 def tag_body(node,context):
+    """[bodypart] - Get a random body part."""
     word = word_from_file('data/bodyparts')
     return word
 
