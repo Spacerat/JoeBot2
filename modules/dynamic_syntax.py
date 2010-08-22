@@ -2,7 +2,8 @@
 from dynamic_core import *
 from random import randint, seed
 
-def tag_chose(node,context):
+def tag_choose(node,context):
+    """<choose>stuff[or]stuff[|]stuff</choose> - Pick a random item from a list separated by [or] or [|] tags."""
     seed()
     choices = []
     choice = []
@@ -23,6 +24,7 @@ def tag_chose(node,context):
     return r
 
 def tag_if(node,context):
+    """<if expression>stuff[elif another_expression]other_stuff[else]stuff3</if> - Display stuff if expression is true. Optionally do other_stuff if another_expression is true, or do stuff3 if no expressions are true."""
     test = eval(node.attribute, context.vars)
     if test:
         value=''
@@ -47,6 +49,7 @@ def tag_if(node,context):
         return value
 
 def tag_for(node,context):
+    """<for varname in list>Do stuff with [varname]</for> - Loop through list, setting varname to each value in the list in turn."""
     com = node.attribute.partition('in')
     if not (com[0].strip() and com[2].strip()):
         return "[use for x in list]"
@@ -54,7 +57,11 @@ def tag_for(node,context):
     varname = com[0].strip()
     listname = com[2].strip()
 
-    list = eval(listname,context.vars)
+    if listname in context.vars:
+        list=context.vars[listname]
+    else:
+        list = eval(listname,context.vars)
+
     if len(list)>50:
         return "[List is too large.]"
 
@@ -66,11 +73,13 @@ def tag_for(node,context):
     if prev_value:
         context.vars[varname]=prev_value
     else:
-        del context.vars[varname]
+        pass
+        #del context.vars[varname]
     return r
 
 
 def tag_random(node,context):
+    """[random list] OR [random x:y] - Either pick a random value from a list, or a random number between x and y."""
     article=None
     seed()
     if node.attribute in context.vars:
@@ -84,22 +93,37 @@ def tag_random(node,context):
         return article[randint(0,len(article)-1)]
 
 def tag_try(node,context):
-    if node.attribute in context.vars:
-        if context.vars[node.attribute]:
-            return context.vars[node.attribute]
-    '''
-        try:
-            e = eval(node.attribute,context.vars)
-        except AttributeError:
-            pass
+    """<try expression>fallback</try> OR <try>expression[else]fallback</try> - Return expression if it has a value, else return fallback."""
+    if node.attribute:
+        if node.attribute in context.vars:
+            if context.vars[node.attribute]:
+                return context.vars[node.attribute]
+        return node.process_children(context)
+    else:
+        test=''
+        testing=False
+        resnodes=[]
+        oldstrict=context.strict
+        context.strict=False
+        for child in node.children:
+            if child.name=='else':
+                testing=True
+                continue
+            if testing==False:
+                test+=stringify(child.process(context))
+            else:
+                resnodes.append(child)
+        if test=='':
+            value=''
+            context.strict=oldstrict
+            for child in resnodes:
+                value+=stringify(child.process(context))
+            return value
         else:
-            if e != None:
-                return e
-    '''
-    return node.process_children(context)
+            return test
 
 def init():
-    register_tag('choose',tag_chose)
+    register_tag('choose',tag_choose)
     register_tag('if',tag_if)
     register_tag('random',tag_random)
     register_tag('for',tag_for)
