@@ -93,7 +93,7 @@ class TagNode(Node):
             if context.strict == True:
                 return "[%s is not a registered tag name.]"%self.name
             else:
-                return self.tag
+                return ''#self.tag
 
     @property
     def type(self):
@@ -177,6 +177,9 @@ def register_tag(name,callback):
         module_registrations[module]=[]
     module_registrations[module].append(name)
 
+def get_tag_help(name):
+    if name in registered_tags:
+        return registered_tags[name].__doc__
 
 def parse_markup(line):
     root = ContainerNode('root')
@@ -194,7 +197,9 @@ def parse_markup(line):
             text=''
         elif c==Parser.rtag:
             in_tag-=1
-            if in_tag>0: continue
+            if in_tag>0:
+                text+=Parser.rtag
+                continue
             current_node.add_child(TagNode(text))
             text=''
         #containers <>
@@ -204,7 +209,9 @@ def parse_markup(line):
             text=''
         elif c==Parser.rcont:
             in_tag-=1
-            if in_tag>0: continue
+            if in_tag>0:
+                text+=Parser.rcont
+                continue
             node = ContainerNode(text)
             if node.closing:
                 if node.name == current_node.name:
@@ -234,10 +241,17 @@ def tag_null(node,context):
     pass
 
 def tag_root(node,context):
+    """<root>stuff</root> - The root tag."""
     return node.process_children(context)
 
 def tag_set(node,context):
+    """<set name>value</set> - Sets the value of name to value."""
     context.vars[node.attribute] = node.process_children(context)
+
+def tag_ltag(node,context): return "["
+def tag_rtag(node,context): return "]"
+def tag_lcont(node,context): return "<"
+def tag_rcont(node,context): return ">"
 
 def command_eval(interface,hook,args):
     """~eval expression - Evaluate an expression."""
@@ -255,4 +269,8 @@ def init():
     modules.add_hook('unloaded',hook_unloaded)
     register_tag('root',tag_root)
     register_tag('set',tag_set)
+    register_tag('ltag',tag_ltag)
+    register_tag('rtag',tag_rtag)
+    register_tag('lcont',tag_lcont)
+    register_tag('rcont',tag_rcont)
     command.ComHook('eval',command_eval,name='EvalBot')
