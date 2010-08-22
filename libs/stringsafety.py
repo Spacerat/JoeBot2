@@ -24,5 +24,6 @@ def escapeurl(url,plus=False):
 def FormatHTML(data):
     data=unicode(BeautifulStoneSoup(data,convertEntities=BeautifulStoneSoup.HTML_ENTITIES ))
     data = re.compile(r'<br.*?>').sub('\n',data)
+    data = data.replace("</div>",'\n')
     data = re.compile(r'<.*?>').sub('', data)
     return data
