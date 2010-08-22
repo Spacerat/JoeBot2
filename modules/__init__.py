@@ -71,9 +71,13 @@ def add_module(module,init=True):
         try:
             init_module = getattr(modules[module], 'init')
         except AttributeError:
-            pass
-        else:
+            init_module = None
+
+    if init_module:
+        try:
             init_module()
+        except Exception, message:
+            logging.error("Error loading %s: %s" % (module, traceback.format_exc()))
     call_hook('loaded',module)
 
 def unload_module(module):
