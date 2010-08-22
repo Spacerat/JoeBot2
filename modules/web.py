@@ -58,10 +58,14 @@ def parseargs(args,context):
 
 def tag_format_html(node,context):
     """[html] - Formats HTML for display in skype."""
+    s=''
     if node.type=='tag':
-        return stringsafety.FormatHTML(dynamic_core.get_var(node.attribute,context))
+        s = stringsafety.FormatHTML(dynamic_core.get_var(node.attribute,context))
     elif node.type=='cont':
-        return stringsafety.FormatHTML(node.process_children(context))
+        s= stringsafety.FormatHTML(node.process_children(context))
+
+    if len(s)>550:
+        return s[0:447]+"..."
 
 def tag_urlsafe(node,context):
     """<urlsafe>string</urlsafe> - Format a string for inclusion in a URL."""
