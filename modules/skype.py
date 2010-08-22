@@ -13,6 +13,7 @@ class SkypeInterface(modules.Interface):
         self.bot_handle = Skype.CurrentUser.Handle
         self.prefix="!"
         self.name=''
+        self.type="Skype"
 
     def _sanitisetext(self,text):
         outp=text
@@ -78,9 +79,6 @@ class SkypeInterface(modules.Interface):
             r[u.FullName]= u.Handle
 
         return r
-    @property
-    def type(self):
-        return "Skype"
 
     @property
     def chat_name(self):

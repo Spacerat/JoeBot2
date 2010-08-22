@@ -77,7 +77,8 @@ def get_command_from_node(node,context):
     if com:
         return com
     else:
-        return "Invalid tag name %s."%name
+        return
+        #return "Invalid tag name %s."%name
 
 def command_addfunc(interface,hook,args):
     """~addfunc name:code - Adds or updates a dynamic function"""
@@ -123,20 +124,24 @@ def command_runfunc(interface,hook,args):
 
 
 def tag_source(node,context):
+    """[dyn_source command] - Get the source of a command."""
     com = get_command_from_node(node,context)
-    return com[0][2]
+    if com: return com[0][2]
 
 def tag_version(node,context):
+    """[dyn_version command] - Get the latest version of a command."""
     com = get_command_from_node(node,context)
-    return com[0][0]
+    if com: return com[0][0]
 
 def tag_author(node,context):
+    """[dyn_version command] - Get the original author of a command."""
     com = get_command_from_node(node,context)
-    return com[-1][5]
+    if com: return com[-1][5]
 
 def tag_updater(node,context):
+    """[dyn_updater command] - Get the latest updater of a command."""
     com = get_command_from_node(node,context)
-    return com[0][5]
+    if com: return com[0][5]
 
 def init():
     data.query('''CREATE TABLE IF NOT EXISTS dynamic
