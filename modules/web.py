@@ -66,12 +66,15 @@ def tag_format_html(node,context):
 
     if len(s)>550:
         return s[0:447]+"..."
+    else:
+        return s
 
 def tag_urlsafe(node,context):
     """<urlsafe>string</urlsafe> - Format a string for inclusion in a URL."""
     return stringsafety.escapeurl(node.process_children(context))
 
 def dosoup(page,node,context,sibling=False):
+
     if (sibling):
         doc = page
     else:
@@ -92,6 +95,7 @@ def dosoup(page,node,context,sibling=False):
         if n==0:
             return doc.find(name,soupargs)
         else:
+            
             return doc.findAll(name,soupargs)[n]
     else:
         return doc.findNextSiblings(name,soupargs)[n]
