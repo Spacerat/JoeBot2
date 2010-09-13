@@ -17,3 +17,6 @@ omegle
 google
 #urbandictionary
 web
+replacebot
+fortune
+pubquiz
