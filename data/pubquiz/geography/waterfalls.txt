@@ -1,0 +1,16 @@
+
+m4,a2
+Where is the {1} waterfall located?
+The {1} waterfall is located in {2}, and is the |0| highest waterfall in the world.
+
+
+1	Angel (Salto Angel)	Canaima Nat'l Park, Venezuela	upper trib. of Rio Caroni	3212	979
+2	Tugela	Natal Nat'l Park, South Africa	Tugela River	2800	850
+3	Utigord (Utigordsfoss)	Norway	glacier fed	2625	800
+4	Monge (Mongefoss)	Marstein, Nesdalen, Norway	Mongebeck	2540	774
+5	Mutarazi (Mtarazi)	Nyanga Nat'l Park, Zimbabwe	Mutarazi River	2499	762
+6	Yosemite	Yosemite Nat'l Park, California, USA	Yosemite Creek	2425	739
+7	Espelands (Espelandsfoss)	Hardanger Fjord, Norway	Opo River	2307	703
+8	Lower Mar Valley (Ostra Mardolafoss)	Eikesdal, Norway	Mardals Stream	2151	655
+9	Tyssestrengene	Odda, Norway	Tyssa River	2123	647
+10	Cuquenan (Salto Kukenan)	Kukenan Tepuy, Venezuela	Cuquenan River	2000	610

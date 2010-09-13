@@ -1,0 +1,34 @@
+
+s,a0
+Those born in {1} have which star sign?
+People born in {1} have the start sign {0}.
+
+m4,a0
+Which star sign has the symbol of a {2}?
+{0}'s symbol is the {2}.
+
+m4,a2
+What is the symbol of the star sign {0}?
+{0}'s symbol is the {2}.
+
+m4,a3
+What is the element of the star sign {0}?
+{0}'s element is {3}.
+
+m4,a4
+What planet is associated with the star sign {0}?
+{0}'s planet is {4}.
+
+
+Aries	21st March - 19th April	ram	fire	Mars	cardinal	head
+Taurus	20th April - 20th May	bull	earth	Venus	fixed	neck & shoulders
+Gemini	21st May - 20th June	twins	air	Mercury	mutable	hands
+Cancer	21st June - 22nd July	crab	water	Moon	cardinal	breasts & belly
+Leo	23rd July - 22nd August	lion	fire	Sun	fixed	heart & spine
+Virgo	23rd August - 22nd September	virgin	earth	Mercury	mutable	intestines
+Libra	23rd September - 22nd October	scales	air	Venus	cardinal	lower back & internal reproductive organs
+Scorpio	23rd October - 21st November	scorpion	water	Pluto	fixed	genitals
+Sagittarius	22nd November - 21st December	centaur	fire	Jupiter	mutable	hips & thighs
+Capricorn	22nd December - 19th January	goat	earth	Saturn	cardinal	knees, bones & skin
+Aquarius	20th January - 18th February	water bearer	air	Uranus	fixed	ankles &circulatory system
+Pisces	19th February - 20th March	fish	water	Neptune	mutable	feet

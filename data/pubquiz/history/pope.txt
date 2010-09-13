@@ -1,0 +1,276 @@
+
+m4,a1
+Who was the |0| pope, reigning in the years {2}?
+The |0| pope was {1}.
+
+m4,a2
+Which time period did Pope {1} hold power for?
+{1} was in power during the years {2}.
+
+
+1	St. Peter	32-67
+2	St. Linus	67-76
+3	St. Anacletus (Cletus)	76-88
+4	St. Clement I	88-97
+5	St. Evaristus	97-105
+6	St. Alexander I	105-115
+7	St. Sixtus I (Xystus I)	115-125
+8	St. Telesphorus	125-136
+9	St. Hyginus	136-140
+10	St. Pius I	140-155
+11	St. Anicetus	155-166
+12	St. Soter	166-175
+13	St. Eleutherius	175-189
+14	St. Victor I	189-199
+15	St. Zephyrinus	199-217
+16	St. Callistus I	217-22
+17	St. Urban I	222-30
+18	St. Pontain	230-35
+19	St. Anterus	235-36
+20	St. Fabian	236-50
+21	St. Cornelius	251-53
+22	St. Lucius I	253-54
+23	St. Stephen I	254-257
+24	St. Sixtus II	257-258
+25	St. Dionysius	260-268
+26	St. Felix I	269-274
+27	St. Eutychian	275-283
+28	St. Caius (Gaius)	283-296
+29	St. Marcellinus	296-304
+30	St. Marcellus I	308-309
+31	St. Eusebius	309 or 310
+32	St. Miltiades	311-14
+33	St. Sylvester I	314-35
+34	St. Marcus	336
+35	St. Julius I	337-52
+36	Liberius	352-66
+37	St. Damasus I	366-83
+38	St. Siricius	384-99
+39	St. Anastasius I	399-401
+40	St. Innocent I	401-17
+41	St. Zosimus	417-18
+42	St. Boniface I	418-22
+43	St. Celestine I	422-32
+44	St. Sixtus III	432-40
+45	St. Leo I (The Great)	440-61
+46	St. Hilarius	461-68
+47	St. Simplicius	468-83
+48	St. Felix III	483-92
+49	St. Gelasius I	492-96
+50	Anastasius II	496-98
+51	St. Symmachus	498-514
+52	St. Hormisdas	514-23
+53	St. John I	523-26
+54	St. Felix IV	526-30
+55	Boniface II	530-32
+56	John II	533-35
+57	St. Agapetus I	535-36
+58	St. Silverius	536-37
+59	Vigilius	537-55
+60	Pelagius I	556-61
+61	John III	561-74
+62	Benedict I	575-79
+63	Pelagius II	579-90
+64	St. Gregory I (The Great)	590-604
+65	Sabinian	604-606
+66	Boniface III	607
+67	St. Boniface IV	608-15
+68	St. Deusdedit (Adeodatus I)	615-18
+69	Boniface V	619-25
+70	Honorius I	625-38
+71	Severinus	640
+72	John IV	640-42
+73	Theodore I	642-49
+74	St. Martin I	649-55
+75	St. Eugene I	655-57
+76	St. Vitalian	657-72
+77	Adeodatus II	672-76
+78	Donus	676-78
+79	St. Agatho	678-81
+80	St. Leo II	682-83
+81	St. Benedict II	684-85
+82	John V	685-86
+83	Conon	686-87
+84	St. Sergius I	687-701
+85	John VI	701-05
+86	John VII	705-07
+87	Sisinnius	708
+88	Constantine	708-15
+89	St. Gregory II	715-31
+90	St. Gregory III	731-41
+91	St. Zachary	741-52
+*	Stephen II	752
+92	Stephen III	752-57
+93	St. Paul I	757-67
+94	Stephen IV	767-72
+95	Adrian I	772-95
+96	St. Leo III	795-816
+97	Stephen V	816-17
+98	St. Paschal I	817-24
+99	Eugene II	824-27
+100	Valentine	827
+101	Gregory IV	827-44
+102	Sergius II	844-47
+103	St. Leo IV	847-55
+104	Benedict III	855-58
+105	St. Nicholas I (The Great)	858-67
+106	Adrian II	867-72
+107	John VIII	872-82
+108	Marinus I	882-84
+109	St. Adrian III	884-85
+110	Stephen VI	885-91
+111	Formosus	891-96
+112	Boniface VI	896
+113	Stephen VII	896-97
+114	Romanus	897
+115	Theodore II	897
+116	John IX	898-900
+117	Benedict IV	900-03
+118	Leo V	903
+119	Sergius III	904-11
+120	Anastasius III	911-13
+121	Lando	913-14
+122	John X	914-28
+123	Leo VI	928
+124	Stephen VIII	929-31
+125	John XI	931-35
+126	Leo VII	936-39
+127	Stephen IX	939-42
+128	Marinus II	942-46
+129	Agapetus II	946-55
+130	John XII	955-63
+131	Leo VIII	963-64
+132	Benedict V	964
+133	John XIII	965-72
+134	Benedict VI	973-74
+135	Benedict VII	974-83
+136	John XIV	983-84
+137	John XV	985-96
+138	Gregory V	996-99
+139	Sylvester II	999-1003
+140	John XVII	1003
+141	John XVIII	1003-09
+142	Sergius IV	1009-12
+143	Benedict VIII	1012-24
+144	John XIX	1024-32
+145	Benedict IX	1032-45
+146	Sylvester III	1045
+147	Benedict IX	1045
+148	Gregory VI	1045-46
+149	Clement II	1046-47
+150	Benedict IX	1047-48
+151	Damasus II	1048
+152	St. Leo IX	1049-54
+153	Victor II	1055-57
+154	Stephen X	1057-58
+155	Nicholas II	1058-61
+156	Alexander II	1061-73
+157	St. Gregory VII	1073-85
+158	Blessed Victor III	1086-87
+159	Blessed Urban II	1088-99
+160	Paschal II	1099-1118
+161	Gelasius II	1118-19
+162	Callistus II	1119-24
+163	Honorius II	1124-30
+164	Innocent II	1130-43
+165	Celestine II	1143-44
+166	Lucius II	1144-45
+167	Blessed Eugene III	1145-53
+168	Anastasius IV	1153-54
+169	Adrian IV	1154-59
+170	Alexander III	1159-81
+171	Lucius III	1181-85
+172	Urban III	1185-87
+173	Gregory VIII	1187
+174	Clement III	1187-91
+175	Celestine III	1191-98
+176	Innocent III	1198-1216
+177	Honorius III	1216-27
+178	Gregory IX	1227-41
+179	Celestine IV	1241
+180	Innocent IV	1243-54
+181	Alexander IV	1254-61
+182	Urban IV	1261-64
+183	Clement IV	1265-68
+184	Blessed Gregory X	1271-76
+185	Blessed Innocent V	1276
+186	Adrian V	1276
+187	John XXI	1276-77
+188	Nicholas III	1277-80
+189	Martin IV	1281-85
+190	Honorius IV	1285-87
+191	Nicholas IV	1288-92
+192	St. Celestine V	1294
+193	Boniface VIII	1294-1303
+194	Blessed Benedict XI	1303-04
+195	Clement V	1305-14
+196	John XXII	1316-34
+197	Benedict XII	1334-42
+198	Clement VI	1342-52
+199	Innocent VI	1352-62
+200	Blessed Urban V	1362-70
+201	Gregory XI	1370-78
+202	Urban VI	1378-89
+203	Boniface IX	1389-1404
+204	Innocent VII	1404-06
+205	Gregory XII	1406-15
+206	Martin V	1417-31
+207	Eugene IV	1431-47
+208	Nicholas V	1447-55
+209	Callistus III	1455-58
+210	Pius II	1458-64
+211	Paul II	1464-71
+212	Sixtus IV	1471-84
+213	Innocent VIII	1484-92
+214	Alexander VI	1492-1503
+215	Pius III	1503
+216	Julius II	1503-13
+217	Leo X	1513-21
+218	Adrian VI	1522-23
+219	Clement VII	1523-34
+220	Paul III	1534-49
+221	Julius III	1550-55
+222	Marcellus II	1555
+223	Paul IV	1555-59
+224	Pius IV	1559-65
+225	St. Pius V	1566-72
+226	Gregory XIII	1572-85
+227	Sixtus V	1585-90
+228	Urban VII	1590
+229	Gregory XIV	1590-91
+230	Innocent IX	1591
+231	Clement VIII	1592-1605
+232	Leo XI	1605
+233	Paul V	1605-21
+234	Gregory XV	1621-23
+235	Urban VIII	1623-44
+236	Innocent X	1644-55
+237	Alexander VII	1655-67
+238	Clement IX	1667-69
+239	Clement X	1670-76
+240	Blessed Innocent XI	1676-89
+241	Alexander VIII	1689-91
+242	Innocent XII	1691-1700
+243	Clement XI	1700-21
+244	Innocent XIII	1721-24
+245	Benedict XIII	1724-30
+246	Clement XII	1730-40
+247	Benedict XIV	1740-58
+248	Clement XIII	1758-69
+249	Clement XIV	1769-74
+250	Pius VI	1775-99
+251	Pius VII	1800-23
+252	Leo XII	1823-29
+253	Pius VIII	1829-30
+254	Gregory XVI	1831-46
+255	Blessed Pius IX	1846-78
+256	Leo XIII	1878-1903
+257	St. Pius X	1903-14
+258	Benedict XV	1914-22
+259	Pius XI	1922-39
+260	Pius XII	1939-58
+261	Blessed John XXIII	1958-63
+262	Paul VI	1963-78
+263	John Paul I	1978
+264	John Paul II	1978-2005
+265	Benedict XVI	2005-present

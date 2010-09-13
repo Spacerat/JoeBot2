@@ -1,0 +1,31 @@
+
+m4,a0
+What is the real name for the drug {1}?
+{1} is commonly known as {0}. 
+
+m4,a0
+What is the brand name for {1}?
+{1} is commonly known as {0}.
+
+m4,a2
+How is {0} used?
+{0} ({1}) is used {2}.
+
+m4,a0
+Which of the following is used {2}?
+{0} ({1}) is used {2}.
+
+m4,a0
+Which of the following {3}?
+{0} ({1}) is used {2}.
+
+
+Aspirin	Acetylsalicylic acid	as an analgesic, antipyretic, anti-inflammatory and anticoagulant	Aspirin inhibits an enzyme called cyclooxygenase, this enzyme is involved with the production of prostaglandin's and thromoxanes which are hormones with a wide range of functions in the body, including pain transmission to the brain. Therefore with cyclooxygenase blocked there are less prostaglandin's and thromoxanes, and so less pain
+Benadryl	Diphenhydramine hydrochloride	for allergy relief	Benadryl is an anti-histamine which blocks the H1 histamine receptors thus reducing the effects of excess histamine, however as a first generation drug, Benadryl also causes drowsiness
+Clarityn, Claritin	Loratadine	to treat allergies	is an anti-histamine and works by blocking an H1 histamine receptor this means the excess histamine produced in response to the allergic reaction is unable to mediate it's effects. Claritin is a second generation drug which are more selective for peripheral receptors and so the drowsy side-effect of other antihistamines is reduced
+Nurofen, Advil	Ibuprofen	for pain relief, inflammation, arthritis and fever	Ibuprofen is believed to work in a similar way as acetylsalicylic acid - by inhibition of cyclooxygenase which reduces prostaglandin synthesis and so pain transmissio
+Paracetamol, Tylenol	Para-acetyl-amino-phenol	for pain relief and as an antipyretic	reduces activity of cyclooxygenase, reducing production of prostaglandins, similar to aspirin. But what makes it different is the inhibition is ineffective when in the presence of peroxides. So the effects of paracetamol are restricted to the central nervous system and so it doesn't have the blood thinning or anti-inflammatory properties of aspirin
+Prozac	Fluoxetine hydrochloride	for depression and bulimia	selectively inhibits serotonin reuptake. Serotonin is a neurotransmitter which passes a signal from one brain cell to another. By blocking the reuptake of serotinin in the sending nerve cell, the amount of serotonin able to pass the signal onto the receiving cell increases and so restores normal nerve signals
+Valium	Diazepam	as a sedative and a muscle relaxant	to a receptor called GABA in the nerve cells of the brain, this causes the release of GABA neurotransmitters which have a calming affect on many other neurotransmitters and so valium helps keep the brain in balance
+Ventolin	Salbutamol sulfate	for asthma relief	to ß2-adrenergic receptors in the airways and in doing so activates the receptors. This results in the relaxation of smooth bronchial muscles leading to widening of the airway
+Viagra	Sildenafil citrate	for male dysfunction	blocks an enzyme called phosphodiesterase type 5 (PDE5) which usually degrades cGMP in the erecti|e tissue, thus with PDE5 inhibited, cGMP accumulates in the tissue which leads to muscle relaxation, causing increased blood flow into the male member resulting in an excitable state

@@ -1,0 +1,54 @@
+
+m4,a2,commas
+In which year was {0} by {1} composed?
+{0} was composed in {2} by {1}.
+
+m4,a1
+Who composed {0} in {2}?
+{0} was composed in {2} by {1}.
+
+m4,a0
+Which opera was composed by {1} in {2}?
+{0} was composed in {2} by {1}.
+
+
+Aida	Verdi	1871
+Boris Godunov	Mussorgsky	1874
+Carmen	Bizet	1875
+Cavalleria Rusticana	Mascagni	1890
+Cosi fan tutte	Mozart	1790
+Der Rosenkavalier	Richard Strauss	1911
+Dido and Aeneas	Purcell	1689
+Don Giovanni	Mozart	1787
+Eugene Onegin	Tchaikovsky	1879
+Fidelio	Beethoven	1805
+I Pagliacci	Leoncavallo	1892
+La Boheme	Puccini	1896
+La Traviata	Verdi	1853
+Madame Butterfly	Puccini	1904
+Orfeo	Monteverdi	1607
+Orpheus and Eurydice	Gluck	1762
+Otello	Verdi	1887
+Parsifal	Wagner	1882
+Pelleas et Melisande	Debussy	1902
+Peter Grimes	Britten	1945
+Prince Igor	Borodin	1890
+Rigoletto	Verdi	1851
+Salome	Richard Strauss	1905
+Siegfried	Wagner	1876
+Tannhauser	Wagner	1845
+The Barber of Seville	Rossini	1816
+The Bartered Bride	Smetana	1866
+The Magic Flute	Mozart	1791
+The Marriage of Figaro	Mozart	1786
+The Merry Widow	Lehar	1905
+The Rake's Progress	Stravinsky	1951
+The Rhine Gold	Wagner	1869
+The Ring of the Nibelungs	Wagner	1876
+The Tales of Hoffman	Offenbach	1881
+The Threepenny Opera	Weill	1927
+The Twilight of the Gods	Wagner	1876
+The Valkyrie	Wagner	1870
+Tosca	Puccini	1900
+Tristan and Isolde	Wagner	1865
+Turandot	Puccini	1926

@@ -1,0 +1,42 @@
+
+m4,a1
+What do {0}s collect?
+{0}s collect {1}.
+
+m4,a0
+What is the name for a person who collects {1}?
+{0}s collect {1}.
+
+
+aerophilatelist	 airmail stamps
+arctophile	 bear figures
+audiophile	 music
+bestiarist	 medieval books on animals
+bibliophile	 books
+brandophilist	 cigar bands
+cameist	 cameos
+conchologist	 shells
+copoclephilist	 keyrings
+deltiologist	 postcards
+discophile	 records / cds
+errinophilist	 revenue or tax stamps
+ex-librist	 book plates
+fusilatelist	 telephone calling cards
+helixophile	 corkscrews
+heortologist	 religious calanders
+iconophile	 prints and engravings
+lepidopterist	 butterflies
+numismatist	 money and medals
+oologist	 bird's eggs
+philatelist	 postage stamps
+phillumenist	 matchbook covers
+philographist	 autographs
+phonophile	 phonograph records
+plangonologist	 dolls
+receptarist	 recipes
+succrologist	 sugar packets
+tegestologist	 beer mats
+telegery	 telephone calling cards
+vecturist	 transport tokens
+vexillologist	 flags
+xylographer	 woodcuts / engraving

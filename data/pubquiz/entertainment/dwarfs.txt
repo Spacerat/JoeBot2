@@ -1,0 +1,17 @@
+
+m4,a0,commas
+Which of Snow White's seven dwarfs was {1}ed and wore a {2}?
+{0} wore a {2}.
+
+m4,a2
+How best would you describe {0}?
+{0} wore a {2}.
+
+
+Bashful	long beard	Brown top, green hat, and long eyelashes
+Doc	Short beard	Red tunic, brown hat, and glasses
+Dopey	absent beard	Green tunic, purple hat, and big ears
+Grumpy	long beard	Red tunic, brown hat, and a scowl
+Happy	short beard	Brown top, orange headpiece, and a smile
+Sleepy	long beard	Green top, blue hat, and heavy eyelids
+Sneezy	short beard	brown jacket, orange headpiece, and a red nose

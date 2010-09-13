@@ -1,0 +1,121 @@
+
+m4,a1
+{0} is the study of what?
+{0} is the study of {1}.
+
+m4,a0
+What do you call the study of {1}?
+{0} is the study of {1}.
+
+
+Acarology	ticks and mites
+Actinology	the effect of light on chemicals
+Aetiology	the medical study of the causation of disease
+Algology	algae
+Andrology	male health and disease
+Anesthesiology	anesthesia and anesthetics
+Angiology	the anatomy of blood and lymph vascular systems
+Anthropology	humans
+Arachnology	spiders and their kin
+Archaeology	study of past human life
+Astrology	stars influences on human affairs
+Audiology	hearing
+Bacteriology	bacteria
+Biology	life
+Campanology	the study and the art of bell ringing
+Cardiology	the heart
+Carpology	the structure of seeds and fruit
+Cerealogy	crop circles
+Cetology	marine mammals
+Climatology	the climate
+Conchology	shells and of molluscs
+Cosmology	the cosmos or our place in it.
+Craniology	the characteristics of the skull
+Criminology	the scientific study of crime.
+Cryptology	how to encrypt and decrypt secret messages
+Cryptozoology	animals that may or may not be mythical
+Cytology	biological cells
+Demonology	demons
+Dendrochronology	the age of trees and the records in their rings
+Dendrology	trees
+Dermatology	skin
+Dialectology	dialects
+Ecclesiology	Church architecture and decoration
+Ecology	environment
+Egyptology	the ancient Egyptians
+Embryology	embryos
+Endocrinology	hormones
+Entomology	insects
+Enzymology	enzymes
+Epidemiology	epidemics
+Ethology	animal behaviour
+Etymology	word origins
+Gemology	gemstones
+Geology	the Earth
+Gerontology	old age
+Glaciology	glaciers
+Gynaecology	medicine relating to women
+Haematology	blood
+Heliology	the Sun
+Helminthology	parasitic worms
+Hepatology	the liver
+Herbology	the therapeutic use of plants
+Herpetology	reptiles and amphibians
+Histology	living tissues
+Hydrology	water
+Ichthyology	fish
+Immunology	the immune system
+Kinesiology	movement in relation to human anatomy
+Kymatology	waves or wave motions
+Limnology	fresh water environments, lakes
+Lithology	rocks
+Mammology	mammals
+Meteorology	weather
+Metrology	measurement
+Microbiology	microorganisms and their effects on humans
+Mineralogy	minerals
+Mycology	fungi
+Myology	muscles
+Myrmecology	ants
+Mythology	myths
+Nephology	clouds
+Nephrology	the kidneys and their diseases
+Neurology	nerves
+Neuropathology	neural diseases
+Neurophysiology	the functions of the nervous system
+Oncology	cancer
+Ontology	existence
+Oology	eggs
+Ophthalmology	the eyes
+Ornithology	birds
+Orology	mountains and their mapping
+Osteology	bones
+Otology	the ear
+Palaentology	ancient creatures
+Palynology	pollen
+Parasitology	parasites
+Pathology	illness
+Pedology	soil
+Pharmacology	drugs
+Phonology	vocal sounds
+Phrenology	the derivation of a persons character traits from shape of skull
+Physiology	bodily functions
+Phytology	plants; botany
+Planktology	plankton
+Psychology	mental processes in humans
+Radiology	radiation
+Rhinology	the nose and its diseases
+Seismology	earthquakes
+Selenology	the moon
+Serology	blood serum
+Sociology	society
+Speleology	the study or exploration of caves
+Theology	Religion
+Toxicology	toxins, poisons
+Urology	the urogenital tract
+Vexillology	flags
+Virology	viruses
+Volcanology	volcanoes
+Xylology	wood
+Zoology	animals
+Zymology	fermentation

@@ -1,0 +1,51 @@
+
+m4,a3
+When was the {1} in {2} built?
+The {1} was built in {3}.
+
+m4,a4
+The |0| highest building in the world, {1}, has how many stories?
+{1} has {4} stories, over {5} metres.
+
+m4,a2
+Where is the {1} located?
+The {1} is located in {2}. It is the |0| highest building in the word.
+
+m4,a1
+Which of the follownig was built in {2} in the year {3}?
+The {1}, built in {3}, can be found in {2}.
+
+m4,a1
+Measuring {5} metres, which of these is the |0| highest building in the world?
+The {1} in {2} is the |0| highest building in the world.
+
+
+1	Taipei 101	Taipei,
+Taiwan	2004	101	509
+2	Petronas Tower 1 & 2	Kuala Lumpur,
+Malaysia	1998	88	452
+3	Sears Tower,	Chicago	1974	110	442
+4	Jin Mao Building	Shanghai	1999	88	421
+5	Two International
+Finance Centre	Hong Kong	2003	88	415
+6	CITIC Plaza	Guangzhou,
+China	1996	80	391
+7	Shun Hing Square	Shenzhen,
+China	1996	69	384
+8	Empire State Building	New York	1931	102	381
+9	Central Plaza	Hong Kong	1992	78	374
+10	Bank of China	Hong Kong	1989	72	369
+11	Emirates Tower One	Dubai	1999	54	355
+12	Turntex Sky Tower	Kaohsiung,
+Taiwan	1997	85	348
+13	Aon Centre	Chicago	1973	80	346
+14	The Center	Hong Kong	1998	73	346
+15	John Hancock Center	Chicago	1969	100	344
+16	Wuhan International
+Securities Building	Wuhan,
+China	2005	68	334
+17	Ryugyong Hotel	Pyongyang,
+North Korea	1995	105	330
+18	Burj al Arab Hotel	Dubai	1999	60	321
+19	Chrysler Building	New York	1930	77	319
+20	Bank of America Plaza	Atlanta	1993	55	312

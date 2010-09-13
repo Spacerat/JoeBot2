@@ -1,0 +1,42 @@
+
+m4,a0
+Which Greek god is the {2}?
+{0} is the god of {2}.
+
+m4,a1
+Which Roman god is the {2}?
+{1} is the god of {2}.
+
+m4,a0
+What is the Greek name for the Roman god {1}?
+{1} is {0}, {2}.
+
+m4,a1
+What is the Roman name for the Greek god {0}?
+{0} is {1}, {2}.
+
+m4,a2
+Who is {0}?
+{0} is the Greek {1}.
+
+m4,a2
+Who is {1}?
+{1} is the Roman {1}.
+
+m4,a0
+Which greek god is {4}?
+{0} is {4}.
+
+
+Zeus	Jupiter	god of the sky & storms. King of Olympus	married to Hera
+Hera	Juno	goddess of marriage. Queen of Olympus	married to and sister to Zeus
+Poseidon	Neptune	god of the sea, earthquakes & horses	brother of Zeus
+Demeter	Ceres	goddess of agriculture	Sister of Zeus, mother of Persephone
+Aphrodite	Venus	goddess of love, beauty & fertility. protector of sailors	Daughter of Zeus
+Apollo	Apollo	god of music, prophesy, amp; healing	son of Zeus, Twin of Artemis
+Ares	Mars	god of war	Son of Zeus & Hera
+Artemis	Diana	goddess of the hunt. protector of women in childbirth	twin of Apollo
+Athena	Minerva	goddess of wisdom & crafts	born from forehead of Zeus
+Hephaestus	Vulcan	god of fire & the forge	son of Zeus, married Aphrodite
+Hermes	Mercury	messenger of the gods, guide to the dead in the underworld	son of Zeus, father of Hermaphroditus.
+Dionysus	Bacchus	god of wine, mysteries, & theatre	son of Zeus & a mortal

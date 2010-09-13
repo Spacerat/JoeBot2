@@ -1,0 +1,19 @@
+
+m4,a1
+What are the odds of a {0}?
+The chance of getting {2} is {1}.
+
+m4,a0
+What is the name in poker for {2}?
+|2| is called a {0}.
+
+
+Royal Flush	1:649,750	AKQJ10 in the same suit
+Straight Flush	1:81,218	any 5 card sequence in the same suit
+Four of a kind	1:4,165	4 cards of the same number
+Full house	1:694	three of a kind combined with a pair
+Flush	1:508	any five cards of the same suit, but not in sequence
+Straight	1:283	five cards in sequence, but not in the same suit
+Three of a Kind	1:47	three cards of the same index
+Two Pair	1:21	two separate pairs
+Pair	1:2.4	2 cards with the same number

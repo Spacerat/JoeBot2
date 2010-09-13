@@ -1,0 +1,78 @@
+
+m4,a1
+What is the definition of the musical term {0}?
+{0} means {1}.
+
+m4,a0
+What term means {1}?
+{0} means {1}.
+
+
+Accelerando	Increase of speed in music
+Accent	Stress of one tone over others, making it stand out
+Accompaniment	Music that goes along with a more important part
+Adagio	Slow, leisurely
+Allegretto	Moderately fast, lively. Faster than Andante, slower than allegro
+Allegro	Lively, brisk, rapid
+Andante	Moderately slow, a walking speed
+Baroque	Relating to the period from about 1600 - 1750, characterized by grandeur and heavy elaboration of design in music
+Binary Form	the structure of a musical composition consisting of two main sections
+Cadence	Closing of a phrase or section of music
+Cantata	A short lyric form dealing with secular or sacred subjects
+Chord	Three or more tones combined and sounded simultaneously
+Classical	Referring to that period from approximately 1750 - 1800, characterized musically by objectivity of the composer, emotional restraint, and simple harmonies
+Consonance	A simultaneious sounding of tones that produces a feeling of rest
+Crescendo	Gradually growing louder
+Da Capo	From the beginning
+Diminuendo	Gradually growing softer
+Dissonance	A simultaneous sounding of tones that produces a feeling of tension or unrest and a feeling that further resolution is needed
+Dolce	Sweetly, softly
+Dynamics	Varying intensities of sound throughout a given musical composition
+Espressione	Expressively
+Fermata	A pause, stop, or interruption
+Fine	The end of a musical piece
+Forte	Loud, strong
+Fortissimo	Very loud
+Grave	Heavy, slow, pondereous in movement
+Gusto	In good taste, tasteful
+Harmony	The sound resulting from the simultaneous sounding of two or more tones consonant with each other
+Interval	The distance between two tones
+Istesso Tempo	The same tempo
+Legato	Smooth, flowing
+Largo	Large, broad, slow and stately
+Legato	Smooth and connected
+Lento	Slow
+Melody	An arrangement of single tones in a meaningful sequence
+Maestoso	Majestic, dignified
+Meno	Less
+Mezzo Forte	 Moderately loud
+Mezzo Piano	Moderately soft
+Molto, Molta	Much
+Obbligato	Required, indispensable
+Ostinato	A repeated melodic or rhythmic fragment
+Piano	Softly
+Pianissimo	Very soft
+Presto	Fast
+Phrase	A section of a composition comprising a musical thought
+Polyphonic	Two or more melodies sound simultaneously
+Polyrhythms	 Two or more keys are used simultaneously
+Ritardando	Gradually slower
+Retrograde	 melody is played backwards
+Romantic	19th century musical period characterized by subjectivity on the part of the composer, emotionalism in music, longer musical forms, and richer harmonies
+Root	The tone of the scale upon which a chord is built
+Root Position	The postion of a chord in which the root appears as the lowest tone
+Rubato	 a modification of the strict rhythmical flow
+Scale	A series of tones in a specified order
+Scherzo	A sprightly movement
+Sforzando	Explosively
+Slur	two or more notes executed in a smoothly connected manner without a break
+Sostenuto	Sustained
+Spirito	Spiritedly
+Staccato	Sounded in a short, detached manner
+Syncopation	The rhythmic result produced when a regularly accented beat is displaced onto an unaccented beat
+Tempo	The rate of speed at which a musical compostion is performed
+Theme	A short musical passage that states an idea
+Timbre	The quality of a musical tone
+Tone	1. A musical sound 2. The quality of a musical sound
+Tutto, Tutta	All, whole
+Vivace	Spirited, bright, rapid, equalling or exceeding allegro

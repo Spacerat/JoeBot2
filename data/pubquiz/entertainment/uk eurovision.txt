@@ -1,0 +1,67 @@
+
+m4,a2
+The {0} UK Eurovision entry {1} is by which artist?
+The UK entered {1} by {2} on {0}, coming |3|.
+
+m4,a1
+Which song by {2} did the UK enter for the {0} Eurovision?
+The UK entered {1} by {2} on {0}, coming |3|.
+
+m4,a0
+In what year did the UK enter Eurovision with {1} by {2}? 
+The UK entered {1} by {2} on {0}, coming |3|.
+
+m4, a3
+In {0} the song {1} by {2} came to what position in Eurovision?
+The {1} by {2} came |3| in the {0} Eurovision.
+
+
+2006	Teenage Life	Daz Sampson	19
+2005	Touch My Fire	Javine	22
+2004	Hold On To Our Love	James Fox	16
+2003	Cry Baby	Jemini	26
+2002	Come Back	Jessica Garlick	3
+2001	No Dream Impossible	Lindsay Dracass	15
+2000	Dont Play That Song Again	Niki French	16
+1999	Say it Again	Precious	12
+1998	Where are You?	Imaani	2
+1997	Love, Shine a Light	Katrina and the Waves	1
+1996	Just a Little Bit	Gina G	8
+1995	Love City Groove	Love City Groove	10
+1994	Lonely Symphony (We Will be Free)	Frances Ruffelle	10
+1993	Better the Devil You Know	Sonia	2
+1992	One Step Out of Time	Michael Ball	2
+1991	A Message to Your Heart	Samantha Janus	10
+1990	Give a Little love Back	Emma	6
+1989	Why Do I Always Get It Wrong?	Live Report	2
+1988	Go	Scott Fitzgerald	2
+1987	Only the Night	Rikki	13
+1986	Runner in the Night	Ryder	7
+1985	Love Is	Vikki	4
+1984	Love Games	Belle & the Devotions	7
+1983	I'm Never Giving Up	Sweet Dreams	6
+1982	One Step Further	Bardo	7
+1981	Making Your Mind Up	Buck's Fizz	1
+1980	Love Enough for Two	Prima Donna	3
+1979	Mary Ann	Black lace	7
+1978	Bad Old Days	Co-Co	11
+1977	Rock Bottom	Lynsey de Paul & Mike Moran	2
+1976	Save Your Kisses for Me	Brotherhood of Man	1
+1975	Let Me Be the One	The Shadows	2
+1974	Long Live Love	Olivia Newton-John	4
+1973	Power to all Our Friends	Clif Richard	3
+1972	Beg, Steal or Borrow	The New Seekers	2
+1971	Jack in the Box	Clodagh Rogers	4
+1970	Knock, Knock, Who's There	Mary Hopkin	2
+1969	Boom-bang-a-bang	Lulu	1
+1968	Congratulations	Cliff Richard	2
+1967	Puppet on a String	Sandie Shaw	1
+1966	A Man Without Love	Kenneth McKellar	9
+1965	I Belong	Kathy Kirby	2
+1964	I Love the Little Things	Matt Monroe	2
+1963	Say Wonderful Things	Ronnie Carroll	4
+1962	Ring-a-ding Girl	Ronnie Carroll	4
+1961	Are You Sure?	The Allisons	2
+1960	Looking High, High, High	Bryan Johnson	2
+1959	Sing Little Birdie	Pearl Carr & Teddy Johnson	2
+1957	All	Patricia Bredin	7

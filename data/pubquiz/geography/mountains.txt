@@ -1,0 +1,20 @@
+
+m4,a1
+Which of these mountains, located in {2} is the |0| highest on the planet?
+{1} is the |0| highest mountain on the planet, measuring {3}.
+
+
+1	Everest	China and Nepal	8,850 metres
+2	K2	China and Pakistan	8,611 metres
+3	Kanchenjunga	India and Nepal	8,586 metres
+4	Lhotse	China and Nepal	8,516 metres
+5	Makalu	Tibet and Nepal	8,462 metres
+6	Cho Oyu	Tibet and Nepal	8,201 metres
+7	Dhaulagiri	Nepal	8,167 metres
+8	Manaslu	Nepal	8,163 metres
+9	Nanga Parbat	Pakistan	8,126 metres
+10	Annapuma	Nepal	8,091 metres
+11	Gasherbrum I (K5)	China and Pakistan	8,068 metres
+12	Broad Peak	China and Pakistan	8,047 metres
+13	Gasherbrum II (K4)	China and Pakistan	8,035 metres
+14	Shishapangma	Tibet	8,027 metres

@@ -1,0 +1,40 @@
+
+m4,a1
+When was {0} by Shakespeare first performed?
+{0} was performed in {1}.
+
+
+Henry VI pt 1,2,3	1589-92
+Richard III	1592-93
+The Comedy of Errors	1592-93
+Titus Andronicus	1593-94
+The Taming Of The Shrew	1593-94
+The Two Gentlemen Of Verona	1594-95
+Romeo And Juliet	1594-95
+Love's Labor's Lost	1594-95
+A Midsummer Night's Dream	1595-96
+Richard II	1595-96
+King John	1596-97
+The Merchant Of Venice	1596-97
+Henry IV pt 1,2	1597-98
+Henry V	1598-99
+Much Ado About Nothing	1598-99
+Julius Caesar	1599-1600
+As You Like It	1599-1600
+The Merry Wives Of Windsor	1600-01
+Hamlet	1600-01
+Troilus and Cressida	1601-02
+Twelfth Night	1601-02
+All's Well That Ends Well	1602-03
+Measure for Measure	1604-05
+Othello	1604-05
+King Lear	1605-06
+Macbeth	1605-06
+Antony and Cleopatra	1606-07
+Coriolanus	1607-08
+Timon of Athens	1607-08
+Pericles	1608-09
+Cymbeline	1609-10
+The Winter's Tale	1610-11
+The Tempest	1610-11
+Henry VIII	1612-13

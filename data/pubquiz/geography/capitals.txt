@@ -1,0 +1,209 @@
+
+m4,a1
+What is the capital of {0}?
+The capital of {0} is {1}.
+
+m4,a0
+{1} is the capital of which country?
+The capital of {0} is {1}.
+
+
+Albania	 Tirana
+Andorra	 Andorra la Vella
+Austria	 Vienna
+Belarus	 Minsk
+Belgium	 Brussels
+Bosnia and Herzegovina	 Sarajevo
+Bulgaria	 Sofia
+Croatia	 Zagreb
+Cyprus	Nicosia
+Czech Republic	 Prague
+Denmark	 Copenhagen
+England	 London
+Estonia	 Tallinn
+Finland	 Helsinki
+France	 Paris
+Georgia	 Tbilisi
+Germany	 Berlin
+Greece	 Athens
+Hungary	 Budapest
+Iceland	 Reykjavik
+Ireland	 Dublin
+Italy	 Rome
+Kosovo	 Pristina
+Latvia	 Riga
+Liechtenstein	 Vaduz
+Lithuania	 Vilnius
+Luxembourg	 Luxembourg
+Macedonia	 Skopje
+Malta	 Valletta
+Moldova	 Chisinau
+Monaco	 Monaco
+Montenegro	 Podgorica
+The Netherlands	 Amsterdam
+Northern Ireland	 Belfast
+Norway	 Oslo
+Poland	 Warsaw
+Portugal	 Lisbon
+Romania	 Bucharest
+Russian Federation	 Moscow
+San Marino	 San Marino
+Scotland	 Edinburgh
+Serbia	 Belgrade
+Slovakia	 Bratislava
+Slovenia	 Ljubljana
+Spain	 Madrid
+Sweden	 Stockholm
+Switzerland	 Bern
+Ukraine	 Kiev
+Wales	 Cardiff
+Algeria	 Algiers
+Angola	 Luanda
+Benin	 Porto-Novo
+Botswana	 Gaborone
+Burkina Faso	 Ouagadougou
+Burundi	 Bujumbura
+Cameroon	 Yaounde
+Cape Verde	 Praia
+Central African Republic	 Bangu
+Chad	 N'Djamena
+Comoros	 Moroni
+Congo, Republic of	 Brazzaville
+Congo, Democratic Republic of the	Kinshasa
+Cote d'Ivoire	 Yamoussoukro
+Djibouti	 Djibouti
+Egypt	 Cairo
+Equatorial Guinea	 Malabo
+Eritrea	 Asmara
+Ethiopia	 Addis Ababa
+Gabon	 Libreville
+Gambia	 Banjul
+Ghana	 Accra
+Guinea	 Conakry
+Guinea-Bissau	 Bissau
+Kenya	 Nairobi
+Lesotho	 Maseru
+Liberia	 Monrovia
+Libya	 Tripoli
+Madagascar	 Antananarivo
+Malawi	 Lilongwe
+Mali	 Bamako
+Mauritania	 Nouakchott
+Mauritius	 Port Louis
+Morocco	 Rabat
+Mozambique	 Maputo
+Namibia	 Windhoek
+Niger	 Niamey
+Nigeria	 Abuja
+Rwanda	 Kigali
+Sao Tome and Principe	 Sao Tome
+Senegal	 Dakar
+Seychelles	 Victoria
+Sierra Leone	 Freetown
+Somalia	 Mogadishu
+South Africa	 Pretoria
+Sudan	 Khartoum
+Swaziland	 Mbabane
+Tanzania	 Dar es Salaam
+Togo	 Lome
+Tunisia	 Tunis
+Uganda	 Kampala
+Western Sahara	 El Aaiun
+Zambia	 Lusaka
+Zimbabwe	 Harare
+Afghanistan	Kabul
+Armenia	Yerevan
+Azerbaijan	Baku
+Bahrain	Manama
+Bangladesh	Dhaka
+Bhutan	Thimphu
+Brunei - Darussalam	Bandar Seri Begawan
+Burma (Myanmar)	Rangoon
+Cambodia	Phnom Penh
+China	Beijing
+East Timor	Dili
+India	New Delhi
+Indonesia	Jakarta
+Iran	Teheran
+Iraq	Baghdad
+Israel	Jerusalem
+Japan	Tokyo
+Jordan	Amman
+Kazakhstan	Astana
+North Korea	Pyongyang
+South Korea	Seoul
+Kuwait	Kuwait City
+Kyrgyzstan	Bishkek
+Laos	Vientiane
+Lebanon	Beirut
+Malaysia	Kuala Lumpur
+Maldives	Male
+Mongolia	Ulan Bator
+Nepal	Kathmandu
+Oman	Muscat
+Pakistan	Islamabad
+Philippines	Manila
+Qatar	Doha
+Saudi Arabia	Riyadh
+Singapore	Singapore
+Sri Lanka	Sri Jayawardenepura-Kotte
+Syria	Damascus
+Taiwan	Taipei
+Tajikistan	Dushanbe
+Thailand	Bangkok
+Turkey	Ankara
+Turkmenistan	Ashgabat
+United Arab Emirates	Abu Dhabi
+Uzbekistan	Tashkent
+Vietnam	Hanoi
+Yemen	Sana
+Antigua and Barbuda	 St. John's
+Bahamas	 Nassau
+Barbados	 Bridgetown
+Belize	 Belmopan
+Canada	 Ottawa - Ontario
+Costa Rica	 San Jose
+Cuba	 Havana
+Dominica	 Roseau
+Dominican Republic	 Santo Domingo
+El Salvador	 San Salvador
+Greenland	 Nuuk
+Grenada	 St. George's
+Guatemala	 Guatemala City
+Haiti	 Port-au-Prince
+Honduras	 Tegucigalpa
+Jamaica	 Kingston
+Mexico	 Mexico City
+Nicaragua	 Managua
+Panama	 Panama City
+St. Kitts and Nevis	 Basseterre
+St. Lucia	 Castries
+St. Vincent and The Grenadines	 Kingstown
+Trinidad and Tobago	 Port-of-Spain
+United States	 Washington D.C.
+Australia	 Canberra
+Fiji	 Suva
+Kiribati	 Tarawa
+Marshall Islands	 Majuro
+Micronesia	 Palikir
+Nauru	 Yaren
+New Zealand	 Wellington
+Palau	 Koror
+Papua New Guinea	 Port Moresby
+Samoa	 Apia
+Solomon Islands	 Honiara
+Tonga	 Nuku'alofa
+Tuvalu	 Funafuti
+Vanuatu	 Port Vila
+Argentina	 Buenos Aires
+Bolivia	 Sucre
+Brazil	 Brasilia
+Chile	 Santiago
+Colombia	 Bogota
+Ecuador	 Quito
+Guyana	 Georgetown
+Paraguay	 Asuncion
+Peru	 Lima
+Suriname	 Paramaribo
+Uruguay	 Montevideo
+Venezuela	 Caracas

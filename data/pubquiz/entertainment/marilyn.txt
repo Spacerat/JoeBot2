@@ -1,0 +1,44 @@
+
+m4,a0
+In what year was the movie {1} released?
+{1} was released in {0}.
+
+m3,a2
+What role did Marilyn Monroe play in the {0}s film {1}?
+Marilyn Monroe played {2} in {1}.
+
+m4,a1
+What is the name of the {0}s movie starring Marilyn Monroe as {2}?
+Marilyn Monroe played {2} in {1}.
+
+
+1962	Something's Got to Give	Ellen Wagstaff Arden
+1961	Misfits, The	Roslyn Taber
+1960	Let's Make Love	Amanda Dell
+1959	Some Like It Hot	Sugar Kane Kowalczyk
+1957	Prince and the Showgirl, The	Elsie Marina
+1956	Bus Stop	Cherie
+1955	Seven Year Itch, The	The Girl
+1954	There's No Business Like Show Business	Vicky Hoffman / Vicky Parker
+1954	River of No Return	Kay Weston
+1953	How to Marry a Millionaire	Pola Debevoise
+1953	Gentlemen Prefer Blondes	Lorelei Lee
+1953	Niagara	Rose Loomis
+1952	Full House	Streetwalker
+1952	Monkey Business	Miss Lois Laurel
+1952	Don't Bother to Knock	Nell Forbes
+1952	We're Not Married!	Annabel Norris
+1952	Clash by Night	Peggy
+1951	Let's Make It Legal	Joyce Mannering
+1951	Love Nest	Roberta Stevens
+1951	As Young as You Feel	Harriet
+1951	Home Town Story	Iris Martin
+1950	Right Cross	Dusky Ledoux
+1950	Fireball, The	Polly
+1950	All About Eve	Miss Caswell
+1950	Asphalt Jungle, The	Angela Phinlay
+1950	Ticket to Tomahawk, A	Clara
+1950	Love Happy	Grunion's Client
+1948	Ladies of the Chorus	Peggy Martin
+1948	Summer Lightning	Girl in Canoe
+1947	Dangerous Years	Evie

@@ -1,0 +1,26 @@
+
+m4,a1
+Which of these cities has a population of {3}, raking {0} in the world (not including their metropolitan areas)?
+The population of {1} in {0} is {3} ranking {0} in the world.
+
+
+1	Shanghai	China	14,608,512
+2	Mumbai (Bombay)	India	12,691,836
+3	Karachi	Pakistan	11,624,219
+4	Buenos Aires	Argentina	11,574,205
+5	Dilli (Delhi)	India	10,927,986
+6	Manila	Philippines	10,444,527
+7	Moscow	Russia	10,381,222
+8	Seoul	Korea (South)	10,349,312
+9	Sao Paulo	Brazil	10,21,295
+10	Istanbul	Turkey	9,792,428
+11	Lagos	Nigeria	8,789,120
+12	Mexico City	Mexico	8,657,50
+13	Jakarta	Indonesia	8,540,121
+14	Tokyo	Japan	8,336,599
+15	New York	United States of America	8,107,916
+16	Kinshasa	Congo (Dem. Rep.)	7,785,965
+17	Lima	Peru	7,737,2
+18	Cairo	Egypt	7,734,614
+19	Peking	China	7,480,601
+20	London	United Kingdom	7,421,209

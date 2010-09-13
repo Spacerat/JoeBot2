@@ -1,0 +1,221 @@
+
+m4,a1
+People who have {0} are afraid of what?
+{0} is the fear of {1}.
+
+m4,a0
+Which of the following is a fear of {1}?
+{0} is the feer of {1}.
+
+
+Acarophobia	Itching
+Achluophobia	Darkness
+Acousticophobia	Noise
+Acrophobia	Heights
+Aerophobia	Drafts
+Agliophobia	Pain
+Agoraphobia	Crowds
+Agraphobia	Sexual abuse
+Agrizoophobia	Wild animals
+Aichmophobia	Needles, pointed objects
+Ailurophobia	Cats
+Alektorophobia	Chickens
+Algophobia	Pain
+Altophobia	Heights
+Amathophobia	Dust
+Ambulophobia	Walking
+Ancraophobia	Wind
+Androphobia	Men
+Anthrophobia	Flowers
+Aphenphosmphobia	Being touched
+Apiphobia	Bees
+Apotemnophobia	Amputees
+Arachibutyrophobia	Peanut butter sticking to the roof of the mouth
+Arachnophobia	Spiders
+Asthenophobia	Fainting, weakness
+Astraphobia	Thunder and lightning
+Aviatophobia	Flying
+Barophobia	Gravity
+Bathophobia	Depth
+Batonophobia	Plants
+Bibliophobia	Books
+Bromidrophobia	Body odours
+Brontophobia	Thunder and lightning
+Bufonophobia	Toads
+Carnophobia	Meat
+Catoptrophobia	Mirrors
+Ceraunophobia	Thunder
+Chaetophobia	Hair
+Cheimatophobia	Cold
+Chionophobia	Snow
+Cibophobia	Food
+Cleptophobia	Stealing
+Coimetrophobia	Cemeteries
+Coitophobia	Coitus
+Coprophobia	Feces
+Coulrophobia	Clowns
+Cremnophobia	Precipices
+Cryophobia	Extreme cold
+Demophobia	Crowds
+Dendrophobia	Trees
+Dentophobia	Dentists
+Dermatopathophobia	Skin disease
+Dermatophobia	Skin lesions
+Didaskaleinophobia	School
+Dinophobia	Dizziness
+Diplophobia	Double vision
+Dipsophobia	Drinking
+Dutchphobia	The Dutch
+Dysmorphophobia	Deformity
+Ecclesiophobia	Church
+Ecophobia	Home
+Eisoptrophobia	Mirrors
+Electrophobia	Electricity
+Elurophobia	Cats
+Emetophobia	Vomiting
+Enetophobia	Pins
+Entomophobia	Insects
+Epistaxiophobia	Nosebleeds
+Epistemophobia	Knowledge
+Equinophobia	Horses
+Ergophobia	Work
+Felinophobia	Cats
+Francophobia	France
+Frigophobia	Cold
+Galiophobia	France
+Gamophobia	Marriage
+Genophobia	Sex
+Genuphobia	Knees
+Gephyrophobia	Crossing bridges
+Gerascophobia	Growing old
+Germanophobia	Germany
+German	culture
+Glossophobia	Speaking in public
+Gymnophobia	Nudity
+Gynophobia	Women
+Hadephobia	Hell
+Hagiophobia	Holy things
+Heliophobia	The Sun
+Hemophobia	blood
+Herpetophobia	Reptiles
+Heterophobia	The opposite sex
+Hierophobia	Priests
+Hippophobia	Horses
+Hominophobia	Men
+Hydrophobia	Water
+Hydrophobophobia	Rabies
+Hypegiaphobia	Responsibility
+Hypertrichophobia	Hair
+Hypnophobia	Sleep
+Iatrophobia	Going to the doctor
+Ichthyophobia	Fish
+Illyngophobia	Vertigo
+Japanophobia	Japanese
+Judeophobia	Jews
+Kakorrhaphiophobia	Defeat
+Katagelophobia	Ridicule
+Kathisophobia	Sitting down
+Kenophobia	Empty spaces
+Kolpophobia	Genitals
+Koniophobia	Dust
+Kopophobia	Fatigue
+Lachanophobia	Vegetables
+Laliophobia	Speaking
+Ligyrophobia	Loud noises
+Lilapsophobia	Tornadoes and hurricanes
+Limnophobia	Lakes
+Lockiophobia	Childbirth
+Lygophobia	Darkness
+Melissophobia	Bees
+Menophobia	Menstruation
+Methyphobia	Alcohol
+Molysmophobia	Contamination, dirt
+Murophobia	Mice
+Mycophobia	Mushrooms
+Myctophobia	Darkness
+Nebulaphobia	Fog
+Necrophobia	Death
+Nosocomephobia	Hospitals
+Nyctophobia	The dark
+Ochlophobia	Crowds
+Odynophobia	Pain
+Oneirophobia	Dreams
+Ophidiophobia	Snakes
+Ouranophobia	Heaven
+Pantophobia	Everything
+Paraskavedekatriaphobia	Friday the 13th
+Pediculophobia	Lice
+Pediophobia	Dolls
+Pedophobia	Children
+Peladophobia	Bald people
+Phasmophobia	Ghosts
+Phengophobia	Daylight
+Philematophobia	Kissing
+Phobophobia	Fear
+Phonophobia	Noises
+Photophobia	Light
+Pogonophobia	Beards
+Pteromerhanophobia	Flying
+Pyrophobia	Fire
+Ranidaphobia	Frogs
+Rupophobia	Dirt
+Russophobia	Russians
+Sciophobia	Shadows
+Scoleciphobia	Worms
+Scolionophobia	School
+Selenophobia	The moon
+Sinophobia	Chinese
+Sitophobia	Food
+Sociophobia	People
+Somniphobia	Sleep
+Spheksophobia	Wasps
+Stenophobia	Narrow places
+Suriphobia	Mice
+Symbolophobia	Symbolism
+Symmetrophobia	Symmetry
+Syngenesophobia	Relatives
+Tachophobia	Speed
+Taeniophobia	Tapeworms
+Taphephobia	Being buried alive
+Taurophobia	Bulls
+Technophobia	Technology
+Telephonophobia	Telephones
+Teratophobia	Deformed people
+Testophobia	Taking tests
+Tetanophobia	Tetanus
+Thalassophobia	The sea
+Thanatophobia	Death
+Theatrophobia	Theaters
+Theologicophobia	Theology
+Theophobia	Religion
+Thermophobia	Heat
+Tocophobia	Pregnancy
+Tomophobia	Surgical operations
+Tonitrophobia	Thunder
+Topophobia	Certain places or situations
+Toxicophobia	Poison
+Traumatophobia	Injury
+Tremophobia	Trembling
+Trichinophobia	Trichinosis
+Trichopathophobia	Hair
+Trichophobia	Hair
+Triskadekaphobia	The number 13
+Tropophobia	Making changes
+Trypanophobia	Injections
+Tuberculophobia	Tuberculosis
+Tyrannophobia	Tyrants
+Uranophobia	Heaven
+Urophobia	Urine
+Vaccinophobia	Vaccination
+Venustraphobia	Beautiful women
+Verbophobia	Words
+Vestiphobia	Clothing
+Virginitiphobia	Rape
+Vitricophobia	Step father
+Wiccaphobia	Witches and witchcraft
+Xanthophobia	The colour yellow
+Xenophobia	Foreigners
+Xerophobia	Dryness
+Xylophobia	Forests
+Zelophobia	Jealousy
+Zoophobia	Animals

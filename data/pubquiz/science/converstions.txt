@@ -1,0 +1,18 @@
+
+m4,a1
+How do you convert {0}?
+To convert {0}, you multiply by {1}.
+
+
+centimetres to inches	x 0.393700787
+fathoms to feet	x 6
+feet to meters	x 0.3048
+furlongs to feet	x 660
+gallons to litters	x 3.7853
+inches to centimetres	x 2.54
+kilograms to pounds	x 2.2046
+kilometres to miles	x 0.6214
+litres to gallons	x 0.2642
+litres to pints	x 2.1134
+meters to yards	x 1.0936
+miles to kilometres	x 1.6093

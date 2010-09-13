@@ -1,0 +1,15 @@
+
+m4,a0
+Which layer {1}?
+The {0} {1}.
+
+
+Troposphere	contains the majority of the air, weather systems are found here, temperature ranges from an average of 14°C at ground level to -52°C
+Tropopause	marks the boundary between the troposphere & stratosphere
+Stratosphere	has a temperature which increases as altitude increases, from -52°C to -3°C due to the absorption of UV radiation
+Ozone layer	is found in the stratosphere and absorbs certain wavelengths of UV radiation, UV-A & UV-B. This helps to regulate planetary temperature and helps reduce the UV radiation from damaging DNA molecules in living things causing cancer.
+Stratopause	marks the boundary between the stratosphere & mesosphere
+Mesosphere	has a temperature which decreases as altitude increases, falling to -94°C at the top of the layer
+Mesopause	marks the boundary between the mesosphere & thermosphere
+Thermosphere	has a temperature which rises with altitude, rising to as high as 1727°C depending on solar activity. This is due to the absorption of solar radiation by the remaining oxygen molecules
+Exosphere	is the transition layer between the outermost reach of the atmosphere and interplanetary space and has an extremely low density of molecules.

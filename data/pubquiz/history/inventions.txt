@@ -1,0 +1,105 @@
+
+m4,a1
+Who invented the {0} in {2}?
+{1} invented the {0} in {2}.
+
+m4,a2
+When did {1} invent the {0}?
+{1} invented the {0} in {2}.
+
+m4,a0
+What did {1} invent in {2}?
+{1} invented the {0} in {2}.
+
+
+A/C current	Charles Proteus Steinmetz	1895
+Adhesive tape	Richard Drew - 3M	1930
+Aeroplane	Wilbur and Orville Wright	1903
+Aerosols	Erik Rotheim	1927
+Air Conditioning	Willis Haviland	1902
+Airship	Henri Giffard	1852
+Anemometer	Leon Battista Alberti	1450
+Antibiotics - Penicillin	Alexander Fleming	1928
+Aqualung	Jacques Cousteau	1943
+ATM	Don Wetzel	1968
+Ball Point pen	Ladislao and Georg Biro	1938
+Balloon	Jacques & Joseph Montgolfier	1783
+Bar Code	Joseph Woodland and Bernard Silver	1952
+Barbie Doll	Ruth Handler	1959
+Barometer	Evangelista Torricelli	1643
+Battery	Alessandro Volta	1799
+Bicycle	Kirkpatrick McMillan	1839
+Bicycle (with crank)	Pierre and Ernest Michaux	1861
+Bunsen burner	Robert Wilhelm Bunsen	1855
+Calculator (pocket)	Jack Kilby	1967
+Camera	George Eastmann	1888
+Car	Nicholas Cugnot	1769
+Cinema	Auguste & Louis Lumiere	1895
+Coffee (instant)	Nestle	1937
+Credit Card	Ralph Scheider	1950
+Diesel Engine	Rudolf Diesel	1892
+Elastic	Thomas Hancock	1820
+Escalator	Jesse W Reno	1892
+Fax (photo-electric system)	Dr Arthur Korn	1902
+Fax (concept)	Edouard Belin	1914
+Fountain pen	Lewis Edson Waterman	1884
+Hair dryer (electric)	Alexandre Godefoy	1890
+Helicopter	Paul Cornu	1907
+Hot-air Balloon	Montgolfier brothers	1783
+Hovercraft	Christopher Cockerell	1955
+Ice-cream (dairy mass-produced)	Jacob Fussell	1851
+Ice-cream cone	Italo Marcioni	1896
+Internal combustion engine	Etienne Lenoir	1862
+Iron (electric)	Henry W Seely	1882
+Jeans	Levi Strauss	1850
+Kettle (electric)	Arthur Leslie Large	1922
+Laser	Theodore Maiman	1960
+Lego	Godtfred Kirk Christiansen	1955
+Light Bulb (electric)	Thomas Alva Edison	1880
+Matches (safety)	Gustav Pasch	1844
+Microwave oven	Percy LeBaron Spencer	1945
+Morse code	Samuel Morse	1838
+Motorcycle	Gottleib Daimler	1885
+Oven (electric)	Carpenter Electric Heating Man. Co.	1891
+Pasteurisation	Louis Pasteur	1862
+Penny Farthing	James Starley	1870
+Photograph	Joseph Niepce	1826
+Photographic Film	George Eastman	1889
+Piano (Hammerklavier)	Bartolommeo Cristofori	1709
+Plastic (celluloid)	John Wesley Hyatt	1869
+Potato chips	George Crum	1853
+Printing press (wooden)	Johannes Gutenburg	circa 1450
+Railway (first passenger steam)	George Stephenson	1825
+Refrigerator James Harrison and Alexander Catlin Twining	1850
+Rubber (vulcanized)	Charles Goodyear	1839
+Rubicks Cube	Erno Rubik	1975
+Safety belts (car seat belts)	Volvo	1949
+Safety pin	Walter Hunt	1849
+Sewing machine	Barthelemy Thimonnier	1830
+Silicon Chip	Texas Instruments	1961
+Spinning Jenny	James Hargreaves	1764
+Steam locomotive	Richard Trevithick	1801
+Stainless Steel	Henry Brearley	1913
+Sun tan lotion	Eugene Schueller	1936
+Table Tennis	James Gibb	1890
+Telegraph	W.F.Cooke and Charles Wheatstone	1838
+Telephone	Antonio Meucci	1860
+Telescope	Hans Lippershey	1608
+Television	John Logie Baird	1926
+Thermometer (medical)	Thomas Allbutt	1867
+Toaster	Charles Strite	1927
+Travel Agency	Thomas Cook	1841
+Typewriter	William A Burt	1829
+Typewriter (electric)	Dr Thaddeus Cahill	1901
+Toaster (electric)	Crompton and Co (UK)	1893
+Tyre (pneumatic)	John Dunlop	1888
+Vaccine - Anthrax	Louis Pasteur	1881
+Vaccine - Cholera	Louis Pasteur	1880
+Vaccine - Rabies	Louis Pasteur	1885
+Vaccine - Smallpox	Edward Jenner	1796
+Vacuum Cleaner (electric)	Hurbert Cecil Booth	1901
+Velcro	Georges de Mestral	1948
+Washing machine (electric)	Alva Fisher	1906
+Watch	Peter Henlein	1509
+X-rays	Wilhelm Rontgen	1895
+Zip fastener	Whitcombe L Judson	1892

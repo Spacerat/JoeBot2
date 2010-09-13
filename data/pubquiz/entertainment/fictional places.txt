@@ -1,0 +1,40 @@
+
+m4,a0
+Which of these places is featured in {1}?
+{0} is featured in {1}.
+
+m4,a1
+Where would you find {0}?
+{0} is featured in {1}.
+
+
+Ambridge	The Archers
+Arlen, Texas	King of the Hill
+Bedford Falls	It's a Wonderful Life
+Bedrock	The Flintstones
+Canley, London Borough	The Bill
+Castle Rock, Maine	Stephen King novels
+Dibley	The Vicar of Dibley
+Emmerdale	Emmerdale
+Erinsborough	Neighbours
+Gotham City	Batman
+Greenbow, Alabama	Forrest Gump
+Herby City	Little Britain - Lou & Andy's home town
+Hill Valley, California	Back to the Future
+Holby	Casualty
+Lanford, Illinois	Roseanne
+New New York	Futurama
+Nodnol	Red Dwarf - backwards universe
+Royston Vasey	The League of Gentlemen
+Rutherford, Ohio	Third Rock from the Sun
+Shelbyville, USA	The Simpsons - neighbouring town
+Sneddy	Little Britain - capital of Britain
+South Park, Colorado	South Park
+Springfield, USA	The Simpsons - home town
+Summer Bay	Home & Away
+Sunnydale, California	Buffy the Vampire Slayer
+Walford, London Borough	Eastenders
+Outset Island	The Legend of Zelda: The Wind Waker
+Neverland	Peter Pan
+Hogwarts	Harry Potter
+Emerald City	The Wizard of Oz

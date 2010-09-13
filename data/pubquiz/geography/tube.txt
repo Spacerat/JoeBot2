@@ -1,0 +1,34 @@
+
+s,a0.
+Which London Underground tube line is depicted as {1}?
+The {0} is {1}.
+
+m4,a0
+Which tube line has {2} stops?
+The {0} has {2} stops.
+
+m4,a0
+Which tube line has {3}km of track?
+The {0} has {3}km of track.
+
+m4,a2
+How many stations does the {0} have?
+The {0} has {2} stops.
+
+m4,a3
+How many kilometres long is the {0}?
+The {0} has {3}km of track.
+
+
+Bakerloo	Brown	25	23.2
+Central	Red	49	74
+Circle	Yellow	27	22.5
+District	Green	60	64
+East London	Orange	9	8
+Hammersmith and City	Pink	28	26.5
+Jubilee	Grey	27	36.2
+Metropolitan	Burgandy	34	66.7
+Northern	Black	51	58
+Piccadilly	Blue	52	71
+Victoria	Light Blue	16	21
+Waterloo and City	Teal	2	2.4

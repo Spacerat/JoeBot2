@@ -1,0 +1,26 @@
+
+m4,a0
+Which famous |1| was born on the christmas of {2}?
+{0} was born on the 25th of December, {2}.
+
+
+Dido	singer	1971
+Bernhard Jr	Prince of Netherlands	1969
+Helena Christensen	model	1968
+Shane McGowan	singer	1957
+Annie Lennox	singer	1954
+Sissy Spacek	actress	1949
+Kenny Everett	comedian	1945
+Anwar el-Sadat	Egyptian president	1918
+Tony Martin	singer, actor	1914
+Humphrey Bogart	actor	1899
+Robert Ripley	Ripley's believe it or not	1893
+Conrad Hilton	hotelier	1887
+Alfred Kerr	writer	1867
+Johann Herbeck	composer	1831
+Patrick S Gilmore	composer	1829
+Temistocle Solera	composer	1815
+Joseph Mazzinghi	composer	1765
+John Beckwith	composer	1750
+Pius VI	Pope	1717
+Sir Isaac Newton	mathematician	1642

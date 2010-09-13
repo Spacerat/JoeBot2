@@ -1,0 +1,67 @@
+
+m4,a1
+Which of these songs won Eurovison {0} for {3}?
+Eurovision {0} was won with {1} by {2}, from {3}.
+
+m4,a0
+In which year did {2} win for {3} with the song {1}?
+Eurovision {0} was won with {1} by {2}, from {3}.
+
+{2}
+Who wrote the {0} Eurovision contest winning song {1}?
+Eurovision {0} was won with {1} by {2}, from {3}.
+
+
+2006	Hard Rock Hallelujah	Lordi	Finland
+2005	My Number One	Helena Paparizou	Greece
+2004	Wild Dance	Ruslana	Ukraine
+2003	Everyway that I can	Sertab Erener	Turkey
+2002	I Wanna	Marie N (Marija Naumova)	Latvia
+2001	Everybody	Tanel Padar, Dave Benton & 2XL	Estonia
+2000	Fly on the Wings of Love	Olsen Brothers	Denmark
+1999	Take me to your heaven	Charlotte Nilsson	Sweden
+1998	Diva	Dana International	Israel
+1997	Love shine a light	Katrina and the Waves	United Kingdom
+1996	The Voice	Eimear Quinn	Ireland
+1995	Nocturne	Secret Garden	Norway
+1994	Rock 'N Roll Kids	Paul Harrington & Charlie McGettigan
+1993	In Your Eyes	Niamh Kavanagh	Ireland
+1992	Why Me?	Linda Martin	Ireland
+1991	Fangad Av En Stormvind	Carola	Sweden
+1990	Insieme:1992	Toto Cutugno	Italy
+1989	Rock Me	Riva	Yugoslavia
+1988	Ne Partez Pas Sans Moi	Celine Dion	Switzerland
+1987	Hold Me Now	Johnny Logan	Ireland
+1986	J'Aime La Vie	Sandra Kim	Belgium
+1985	La Det Swinge	Bobbysocks	Norway
+1984	Diggi Loo-Diggi Ley	Herreys	Sweden
+1983	Si La Vie Est Cadeau	Corinne Hermes	Luxembourg
+1982	Ein Bisschen Frieden	Nicole	Germany
+1981	Making Your Mind Up	Bucks Fizz	United Kingdom
+1980	What's Another Year	Johnny Logan	Ireland
+1979	Hallelujah	Milk & Honey	Israel
+1978	A Ba Ni Bi	Yizhar Cohen & Alphabeta	Israel
+1977	L'Oiseau Et L'Enfant	Marie Myriam	France
+1976	Save Your Kisses For Me	Brotherhood of Man	United Kingdom
+1975	Ding Dinge Dong	Teach-in	Netherlands
+1974	Waterloo	ABBA	Sweden
+1973	Tu Te Reconnaitras	Anne-Marie David	Luxembourg
+1972	Apres Toi	Vicky Leandros	Luxembourg
+1971	Un Banc, Un Arbre, Une Rue	Severine	Monaco
+1970	All Kinds Of Everything	Dana	Ireland
+1969	Vivo Cantando	Salome	Spain
+1969	Boom Bang-A-Bang	Lulu	United Kingdom
+1969	De Troubadour	Lennie Kuhr	Netherlands
+1969	Un Jour, Un Enfant	Frida Boccara	France
+1968	La La La	Massiel	Spain
+1967	Puppet On A String	Sandie Shaw	United Kingdom
+1966	Merci Cherie	Udo Jurgens	Austria
+1965	Poupee De Cire, Poupee De Son	France Gall	Luxembourg
+1964	No Ho L'Eta	Gigliola Cinquetti	Italy
+1963	Dansevise	Grethe & Jorgen Ingmann	Denmark
+1962	Un Premier Amour	Isabelle Aubret	France
+1961	Nous Les Amoureux	Jean-Claude Pascal	Luxembourg
+1960	Tom Pillibi	Jacqueline Boyer	France
+1959	Een Beetje	Teddy Scholten	Netherlands
+1958	Dors Mon Amour	Andre Claveau	France
+1957	Net Als Toen	Corry Brokken

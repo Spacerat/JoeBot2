@@ -1,0 +1,20 @@
+
+s,a2
+Who wrote {1}?
+{1} was written by {2}.
+
+m4,a1
+Which song by {2} is the |0|th best selling single in the world?
+{1} by {2} sold {3} million copies.
+
+
+1	Candle In The Wind '97	Elton John	37
+2	White Christmas	Bing Crosby	30
+3	Rock Around The Clock	Bill Haley and His Comets	17
+4	I Want To Hold Your Hand	The Beatles	12
+5	Hey Jude	The Beatles	10
+5	It's Now Or Never	Elvis Presley	10
+5	I Will Always Love You	Whitney Houston	10
+8	Hound Dog	Elvis Presley	9
+8	Diana	Paul Anka	9
+10	I'm A Believer	The Monkees	8

@@ -1,0 +1,32 @@
+
+m4,a3
+Which of the following are good sources of {0}?
+The RDA for {0} is {4}, and you can find it in {3}.
+
+m4,a2
+What are the symptoms for {0} deficiency?
+A lack of {0} in the body causes {2}.
+
+m4,a1
+What is the function of the mineral {0}?
+{1}. Without {4} of {0} per day, you would develop {2}.
+
+m4,a0
+Which mineral can be found in {3} and prevents you from developing {2}?
+Without {3} of {0} per day, one develops {2}.
+
+
+Calcium	Cellular biochemistry - signaling	Ricketts, osteoporosis	milk, butter, cheese, sardines, green leafy vegetables and citrus fruit	800 milligrams
+Chromium	Metabolism of sugar	Adult onset diabetes	yeast, black pepper, liver, wholemeal bread and beer	120 micrograms
+Copper	Component of important enzymes	Anaemia, Menkes Syndrome	Green vegetables, fish, oysters and liver	1.2 milligrams
+Fluorine	component of tooth enamel	Tooth decay, osteoporosis	Seafood and tea	-
+Iodine	Involved in formation of thyroid hormones	Goitre, Cretinism	Seafood and table salt	150 micrograms
+Iron	An essential component of many proteins	Sideropenic anemia	Liver, kidney, green leafy vegetables, egg yolk, fruit and potatoes	14 milligrams
+Magnesium	An essential component of many enzymes	Irregular heartbeat, muscle weakness, insomnia	raw green leafy veg, nuts and grain	300 milligrams
+Manganese	An essential cofactor of many enzymes	Skeletal deformities, growth impairment	legumes, cereals, green leafy vegetables and tea	? milligrams
+Molybdenum	Involved in chemical pathways	Irritability, irregular heart beat	legumes, cereals, liver and kidney	? milligrams
+Phosphorus	Component of DNA, cellular energy	Muscular weakness, bone pain, appetite loss	meat, poultry, fish, eggs, beans and milk	800 milligrams
+Potassium	Abundant monovalent inorganic cation in cells	irregular heartbeat, muscle weakness, fatigue	vegetables, meat, oranges, bananas and bran	3.5 grams
+Selenium	Antioxidant	no known deficiency symptoms	seafood, cereals, meat, egg yolk and garlic	55 micrograms
+Sodium	Diverse roles including signal transduction	Impaired acid-base balance	table salt	< 1.6 grams
+Zinc	Component of many proteins including insulin	Impaired wound healing, appetite loss, impaired sexual development	meat, grain, legumes, oysters and milk	15 milligrams

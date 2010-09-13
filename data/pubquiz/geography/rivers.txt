@@ -1,0 +1,19 @@
+
+m4,a2
+How long is the river {0} in {1}?
+The river {0} is {2} long.
+
+
+Nile	 Africa	6,825 km
+Amazon	 South America	6,437km
+Chang Jiang (Yangtze)	 Asia	6,380km
+Mississippi	 North America	5,971km
+Yenisey-Angara	 Asia	5,536km
+Huang (Yellow)	 Asia	5,464km
+Ob-Irtysh	 Asia	5,410km
+Amur	 Asia	4,416km
+Lena	 Asia	4,400km
+Congo	 Africa	4,370km
+Mackenzie-Peace	 Canada	4,241km
+Mekong	 Asia	4,184km
+Niger	 Africa	4,171km

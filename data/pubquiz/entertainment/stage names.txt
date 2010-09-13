@@ -1,0 +1,121 @@
+
+m4,a0
+What is celebrity {1}'s stage name?
+{1}'s is also known as {0}.
+
+m4,a1
+What is {0}'s real name?
+{0}'s real name is {1}.
+
+
+50 Cent	 Curtis Jackson
+Adam Ant	 Stuart Leslie Goddard
+Adam Faith	 Terence Nelhams
+Alice Cooper	 Vincent Damon Furnier
+Anna Nicole Smith	 Vickie Lynn Hogan
+Axl Rose	 William Bailey
+Barbara Windsor	 Barbara-Ann Deeks
+Barry Manilow	 Barry Alan Pinkus
+Benny Hill	 Alfred Hawthorne Hill
+Bez	 Mark Berry
+Big Daddy	 Shirley Crabtree
+Bill Wyman	 William Perks
+Billy Idol	 William Broad
+Billy Ocean	 Leslie Sabastian Charles
+Bing Crosby	 Harry Lillis Crosby
+Bob Dylan	 Robert Allen Zimmerman
+Bono	 Paul Hewson
+Boy George	 George O Dowd
+Brigette Bardot	 Camille Javal
+Buddy Holly	 Charles Hardin Holley
+Carmen Electra	 Tara Patrick
+Charlie Sheen	 Carlos Irwin Estevez
+Charlton Heston	 John Charles Carter
+Cher	 Cherilyn Sarkisian LaPiere
+Cheryl Baker	 Rita Crudgington
+Chris De Burgh	 Christopher Davidson
+Cilla Black	 Priscilla White
+Cliff Richard	 Harry Webb
+Crystal Gayle	Brenda Gail Webb
+David Bowie	 David Robert Jones
+David Copperfield	 David Kotkin
+David Essex	 David Albert Cook
+David Jason	 David John White
+David Tennant	 David McDonald
+David Walliams	David Williams
+Demi Moore	 Demetria Gene Guynes
+Diana Ross	 Diane Earle
+Dido	 Florian Cloud de Bounevialle Armstrong
+DJ Jazzy Jeff	 Jeffrey Townes
+Elle Macpherson	 Eleanor Gow
+Elton John	 Reginald Dwight
+Elvis Costello	 Declan Mcmanus
+Eminem	 Marshall Bruce Mathers III
+Englebert Humperdinck	Arnold George Dorsey
+(Gerry Dorsey was an earlier stage name)
+Eric Clapton	 Eric Clapp
+Frank Skinner	 Chris Collins
+Freddie Mercury	 Farrokh Bulsara
+Freddie Starr	 Freddie Powell
+Gary Glitter	 Paul Gadd
+Gary Numan	 Gary Webb
+Gene Wilder	 Jerome Silberman
+George Michael	 Georgios Panaylotou
+George Orwell	 Eric Blair
+Gloria Estefan	 Gloria Fajardo
+Goldie	 Clifford Price
+Harry Houdini	 Erich Weiss
+Hulk Hogan	 Terry Bollea
+Janet Street Porter	 Janet Bull
+Jennifer Aniston	 Jennifer Anastassakis
+Joe Strummer	John Graham Mellor
+John Cleese	 John Cheese
+John Wayne	 Marion Morrison
+Jordan	 Katie Price
+Kenny Everett	 Maurice Cole
+Lulu	 Marie Lawrie
+Madonna	 Madonna Louise Ciccone
+Marilyn Manson	 Brian Warner
+Marilyn Monroe	 Norma Baker
+Meatloaf	 Marvin Aday
+Meg Ryan	 Margaret Hyra
+Mel Gibson	 Columcille Gibson
+Michael Barrymore	 Michael Parker
+Michael Caine	 Maurice Micklewhite
+Michael Crawford	 Michael Dumble-Smith
+Moby	 Richard Melville Hall
+Mos Def	Dante Terrell Smith
+Natalie Portman	 Natalie Hershlag
+Neil Diamond	 Noah Kaminsky
+Nicolas Cage	 Nicolas Coppola
+Nina Ricci	 Maria Nielli
+Nina Simone	 Eunice Wayman
+Omar Sharif	 Michael Shalhoub
+Ozzy Osbourne	 John Osbourne
+Paul McCartney	 James Paul McCartney
+Pink	 Alecia Moore
+Prince	 Prince Nelson
+Ralph Lauren	 Ralph Lipschitz
+Ricky Martin	 Enrique Morales
+Ringo Starr	 Richard Starkey
+Robert Palmer	 Alan Batley
+Russ Abbot	 Russell Roberts
+Seal	 Sealhenry Samuel
+Shakin Stevens	 Michael Barratt
+Snoop Doggy Dogg	 Calvin Broadus
+Spike Milligan	 Terence Alan Milligan
+Stevie Wonder	 born Steveland Judkins
+changed to Steveland Morris
+Stewart Granger	 James Lablanche Stewart
+Sting	 Gordon Sumner
+Suggs	 Graham Mc Pherson
+The Edge	 David Evans
+Tiger Woods	 Eldrick Woods
+Tina Turner	 Anna Bullock
+Tom Cruise	 Thomas Cruise Mapother IV
+Twiggy	 Lesley Hornby
+Vanilla Ice	 Robert Van Winkle
+Vic Reeves	 Jim Moir
+Vin Diesel	 Mark Vincent
+Whoopi Goldberg	 Caryn Johnson
+Woody Allen	 Allen Konigsberg

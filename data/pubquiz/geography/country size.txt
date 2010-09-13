@@ -1,0 +1,26 @@
+
+m4,a0
+Which of the following countries has an area of {1} square miles?
+{0} has an area of {1} square miles.
+
+
+Vatican City	0.17
+Monaco	0.75
+Nauru	8.2
+Tuvalu	10
+San Marino	24
+Liechtenstein	62
+Marshall Islands	70
+Seychelles	104
+Maldives	116
+St. Kitts and Nevis	139
+Russia	6,592,812
+Canada	3,612,187
+China	3,600,927
+USA	3,539,224
+Brazil	3,265,059
+Australia	2,941,283
+India	1,147,949
+Argentina	1,056,636
+Kazakhstan	1,049,150
+Sudan	917,374

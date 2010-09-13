@@ -1,0 +1,90 @@
+
+m4,a1
+Who is the lead singer or frontman of {0}?
+{1} is the frontman of {0}.
+
+m4,a0
+Which band does {1} head?
+{1} is the frontman of {0}.
+
+
+AC/DC	Brian Johnson, Dave Evans, Bon Scott
+Aerosmith	Steven Tyler
+A-ha	Morten Harket
+Black Sabbath	John "Ozzy" Osbourne
+Blind Melon	Shannon Hoon
+Blur	Damon Albarn
+Coldplay	Chris Martin
+Creedence Clearwater Revival	John Fogerty
+Crowded House	Neil Finn
+Def Leppard	Joe Elliott
+Depeche Mode	David Gahan
+Dire Straits	Mark Knopfler
+Doves	Jimi Goodwin
+Duran Duran	Simon Le Bon
+Echo & the Bunnymen	Ian McCulloch, Noel Burke
+Erasure	Andy Bell
+Foo Fighters	Dave Grohl
+Genesis	Peter Gabriel, Phil Collins, Ray Wilson
+Green Day	Billie Joe Armstrong
+Guns n' Roses	Axl Rose
+Hootie & the Blowfish	Darius Rucker
+Idlewild	Roddy Woomble
+INXS	Michael Hutchence
+Joy Division	Ian Curtis
+Keane	Tom Chaplin
+Led Zeppelin	Robert Plant
+Limp Bizkit	Fred Durst
+Linkin Park	Chester Bennington
+New Order	Bernard Sumner
+Nickelback	Chad Kroeger
+Nirvana	Kurt Cobain
+No Doubt	Gwen Stefani
+Oasis	Liam Gallagher
+Pearl Jam	Eddie Vedder
+Pulp	Jarvis Cocker
+Queen	Freddie Mercury (Farrokh Bulsara)
+R.E.M.	Michael Stipe
+Radiohead	Thom Yorke
+Red Hot Chili Peppers	Anthony Kiedis
+Roxette	Marie Fredriksson
+Scorpions	Klaus Meine
+Simple Minds	Jim Kerr
+Simply Red	Mick Hucknell
+Soundgarden	Chris Cornell
+Spandau Ballet	Tony Hadley
+Stone Temple Pilots	Scott Weiland
+Suede	Brett Anderson
+Supergrass	Gaz Coombes
+T. Rex	Marc Bolan
+The Animals	Eric Burdon
+The Beach Boys	Brian Wilson
+The Byrds	Roger McGuinn (James Joseph McGuinn III)
+The Cardigans	Nina Persson
+The Charlatans	Tim Burgess
+The Clash	Joe Strummer (John Mellor)
+The Cranberries	Dolores O´Riordan
+The Cure	Robert Smith
+The Darkness	Justin Hawkins
+The Doors	Jim Morrison
+The Happy Mondays	Shaun Ryder
+The Jam	Paul Weller
+The Kinks	Ray Davies
+The La's	Lee Mavers
+The Offspring	Dexter Holland
+The Pixies	Frank Black (Charles Thompson)
+The Police	Sting (Gordon Sumner)
+The Ramones	Joey Ramone (Jeffrey Hyman)
+The Rolling Stones	Mick Jagger
+The Smashing Pumpkins	Billy Corgan
+The Smiths	Morrissey (Steven Morrissey)
+The Stone Roses	Ian Brown
+The Sugarcubes	Björk (Björk Guðmundsdóttir)
+The Who	Roger Daltrey
+Thin Lizzy	Phil Lynott
+T'Pau	Carol Decker
+Travis	Francis Healy
+U2	Bono (Paul Hewson)
+UB40	Ali Campbell
+Ultravox	John Foxx, Midge Ure
+ZZ Top	Billy Gibbons

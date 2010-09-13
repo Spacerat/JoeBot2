@@ -1,0 +1,38 @@
+
+m6,a2,commas
+How much does {1} cost?
+{1} costs {2}.
+
+m4,a0
+What colour is {1}?
+{1} is {0}.
+
+
+Brown	Old Kent Road	£60
+Brown	Whitechapel Road	£60
+N/A	Kings Cross Station	£200
+Blue	The Angel Islington	£100
+Blue	Euston Road	£100
+Blue	Pentonville Road	£120
+Purple	Pall Mall	£140
+N/A	Electric Company	£150
+Purple	Whitehall	£140
+Purple	Northumberland Avenue	£160
+N/A	Marylebone Station	£200
+Orange	Bow Street	£180
+Orange	Marlborough Street	£180
+Orange	Vine Street	£200
+Red	Strand	£220
+Red	Fleet Street	£220
+Red	Trafalgar Square	£240
+N/A	Fenchurch Street Station	£200
+Yellow	Leicester Square	£260
+Yellow	Coventry Street	£260
+N/A	Water Works	£150
+Yellow	Piccadilly	£280
+Green	Regent Street	£300
+Green	Oxford Street	£300
+Green	Bond Street	£320
+N/A	Liverpool St Station	£200
+Blue	Park Lane	£350
+Blue	Mayfair	£400
