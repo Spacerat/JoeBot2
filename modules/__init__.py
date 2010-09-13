@@ -42,7 +42,7 @@ class RunHook(threading.Thread):
 
     def run(self):
         try:
-            for module in hooks[self.hook]:
+            for module in hooks[self.hook].keys():
                 try:
                     hooks[self.hook][module](*self.args, **self.kwds)
                 except Exception, message:
@@ -78,9 +78,15 @@ def add_module(module,init=True):
             init_module()
         except Exception, message:
             logging.error("Error loading %s: %s" % (module, traceback.format_exc()))
+            return False
     call_hook('loaded',module)
+    return True
 
 def unload_module(module):
+
+    if not module in modules:
+        return False
+
     for hook in hooks:
         if hooks[hook].get(module):
             del hooks[hook][module]
@@ -95,6 +101,7 @@ def unload_module(module):
     del modules[module]
 
     call_hook('unloaded',module)
+    return True
 
 def load_modules(list):
     for x in list:

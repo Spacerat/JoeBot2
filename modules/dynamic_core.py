@@ -8,6 +8,7 @@ import re
 import modules
 import command
 import random
+from libs import logging
 
 registered_tags={}
 module_registrations={}
@@ -262,6 +263,7 @@ def hook_unloaded(module):
     if module in module_registrations:
         for tag in module_registrations[module]:
             del registered_tags[tag]
+            logging.info("Unregistered tag %s from %s"%(tag,module))
         del module_registrations[module]
 
 

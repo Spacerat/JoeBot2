@@ -77,9 +77,9 @@ class SkypeMeggleEvents(omeglelib.EventHandler):
         del Omg.chats[self.i.chat_name]
 
 def start_omegle(i,command,args):
-    """!omegle <anon|named> - Starts an omegle session. You must specify either anonymous or named mode.
+    """~omegle <anon|named> - Starts an omegle session. You must specify either anonymous or named mode.
     In anon, Stranger cannot distinguish between skype users. In named mode, The first three letters of your nickname are prepended to your message.
-    Use !endomegle to end the session."""
+    Use ~endomegle to end the session."""
     if args=='anon':
         Omg(i,False).start()
     elif args=='named':

@@ -5,7 +5,7 @@ com_hooks = {}
 
 class ComHook:
 
-    def __init__(self,hook,callback,name='',hidden=False,security=1,data=None):
+    def __init__(self,hook,callback,name='',hidden=False,security=1,data=None,prefix=""):
         frm = inspect.stack()[1]
         mod = inspect.getmodule(frm[0])
         self.name = name
@@ -16,6 +16,7 @@ class ComHook:
         self.module = mod.__name__
         self.data=data
         self._help=''
+        self.prefix = prefix
         com_hooks[hook]=self
 
     def run(self, interface, args):
@@ -38,8 +39,9 @@ def message_hook(text,interface):
         
         #Command hooks
         if command in com_hooks:
-            if text.startswith(interface.prefix):
-                c = com_hooks[command]
+            c = com_hooks[command]
+            if (c.prefix==""  and text.startswith(interface.prefix)) or (text.startswith(c.prefix) and c.prefix!=""):
+                
                 interface.name = c.name
                 #if security.GetSecurityForHandle(Interface,Interface.UserAddress)<c.Security:
                 #    Interface.Reply("Use of this command requires an access level of %u"%c.Security)

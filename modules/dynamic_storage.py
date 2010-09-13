@@ -82,7 +82,7 @@ def get_command_from_node(node,context):
 
 def command_addfunc(interface,hook,args):
     """~addfunc name:code - Adds or updates a dynamic function"""
-    func = args.partition(":")
+    func = args.partition(" ")
     name = func[0].strip()
     line = func[2].strip()
     try:

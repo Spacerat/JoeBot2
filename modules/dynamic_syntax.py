@@ -62,7 +62,7 @@ def tag_for(node,context):
     else:
         list = eval(listname,context.vars)
 
-    if len(list)>50:
+    if len(list)>200:
         return "[List is too large.]"
 
     prev_value = context.vars.get(varname,None)

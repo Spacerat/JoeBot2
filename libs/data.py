@@ -8,7 +8,7 @@ def query(sql,args=None):
     if args: result = curs.execute(sql, args)
     else: result = curs.execute(sql)
     if result:
-        if sql.startswith("INSERT") or sql.startswith("UPDATE"):
+        if not sql.startswith("SELECT"):
             connection.commit()
             return curs.lastrowid
         else:
