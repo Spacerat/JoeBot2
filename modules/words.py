@@ -124,6 +124,13 @@ def tag_body(node,context):
     word = word_from_file('data/bodyparts')
     return word
 
+	
+def tag_pokemon(node,context):
+    """[pokemon] - Get a random pokemon"""
+    word = do_noun(word_from_file('data/pokemon'),node.attribute.split())
+    return word
+
+	
 def init():
     register_tag('noun',tag_noun)
     register_tag('verb',tag_verb)
@@ -134,3 +141,4 @@ def init():
     register_tag('bodypart',tag_body)
     register_tag('indefinite',tag_indefinite)
     register_tag('insult',tag_insult)
+    register_tag('pokemon',tag_pokemon)
