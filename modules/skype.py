@@ -2,6 +2,9 @@
 import modules
 import command
 import Skype4Py
+import re
+import codecs
+
 from libs import logging
 
 class SkypeInterface(modules.Interface):
@@ -100,12 +103,33 @@ def OnAttach(status):
 # Fired on chat message status change.
 # Statuses can be: 'UNKNOWN' 'SENDING' 'SENT' 'RECEIVED' 'READ'
 
+def OnMessageHistory(Username):
+    print "History: ",Username
+
 def OnMessageStatus(Message, Status):
     if Status=='SENT' or Status=='RECEIVED':
         modules.call_hook('message',Message.Body,interface=SkypeInterface(Message,Status,skype))
+    if Status=='READ' or Status =='SENT':
+        # @type it ChatInterface
+        f=None
+        r = re.compile('[^\w]')
+        filename = "data\\logs\\"+r.sub("",Message.ChatName)+".txt"
+        try:
+            f = codecs.open(filename,"a+","utf-8")
+        except:
+            f = open(filename,"w")
+            f.close()
+            #f = open(filename,"a+")
+            f = codecs.open(filename,"a+","utf-8")
+
+        m = "[%s] %s: %s\n" % (Message.Datetime.strftime("%d/%m/%Y %H:%M:%S"),Message.FromDisplayName,Message.Body)
+        #m=str(m)
+        f.write(m)
+        f.close()
 
 def start():
 
+    skype.OnMessageHistory = OnMessageHistory
     skype.OnAttachmentStatus = OnAttach;
     skype.OnMessageStatus = OnMessageStatus;
 
