@@ -13,10 +13,11 @@ words
 lastfm
 wunderground
 quotes
-omegle
+#omegle
 google
 #urbandictionary
 web
 replacebot
 fortune
 pubquiz
+language
