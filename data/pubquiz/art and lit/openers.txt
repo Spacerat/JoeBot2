@@ -1,0 +1,147 @@
+
+m4,a1
+{0} is the opening line to which of these famous pieces of literature?
+{1} opens with {0}
+
+s,a1
+{0} is the opening line to which famous piece of literature?
+{1} opens with {0}
+
+m4,a2
+What are the first three words to {1}?
+The first three words to {1} are {2}
+
+m4,a3
+Who wrote {1}?
+{3} wrote {1}
+
+
+"Far out in the uncharted backwaters of the unfashionable end of the Western Spiral arm of the Galaxy lies a small unregarded yellow sun."	The Hitchiker's Guide To The Galaxy	Far out in	Douglas Adams
+"It was a bright cold day in April, and the clocks were striking thirteen."	1984	It was a	George Orwell
+"I am an invisible man."	Invisible Man	I am an	Ralph Waldo Ellison
+"They're out there. Black boys in white suits up before me to commit sex acts in the hall and get it mopped up before I can catch them."	One Flew Over The Cuckoo's Nest	They're out there	Ken Kesey
+"Mother died today. Or, maybe, yesterday; I can't be sure."	The Stranger	Mother died today	Albert Camus
+"As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect."	The Metamorphosis	As Gregor Samsa	Franz Kafka
+"Many years later, as he faced the firing squad, Colonel Aureliano Buendia was to remember that distant afternoon when his father took him to discover ice."	One Hundred Years Of Solitude	Many years later	Gabriel Garcia Marquez
+"Lolita, light of my life, fire of my loins."	Lolita	Lolita light of	Vladimir Nabokov
+"It was the best of times, it was the worst of times."	Tale of Two Cities	It was the	Charles Dickens
+"Call me Ishmael."	Moby Dick	Call me Ishmael	Herman Melville
+"The sky was the color of a television, tuned to a dead channel."	Neuromancer	The sky was	William Gibson
+"Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much."	Harry Potter and the Philosopher's Stone	Mr and Mrs	J. K. Rowling
+"Mr. Sherlock Holmes, who was usually very late in the mornings, save upon those not infrequent occasions when he was up all night, was seated at the breakfast table."	The Hound of the Baskervilles	Mr Sherlock Holmes	Arthur Conan Doyle
+"These are the things I know are true."	The Bonesetter's Daughter	These are the	Amy Tan
+"When Mr. Bilbo Baggins of Bag End announced that he would shortly be celebrating his eleventy-first birthday with a party of special magnificence, there was much talk and excitement in Hobbiton."	The Lord of the Rings	When Mr Bilbo	J. R. R. Tolkien
+"Once there were four children whose names were Peter, Susan, Edmund, and Lucy."	The Lion, The Witch and The Wardrobe	Once there were	C. S. Lewis
+"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife."	Pride and Prejudice	It is a	Jane Austen
+"It was love at first sight. The first time Yossarian saw the chaplain he fell madly in love with him."	Catch 22	It was love	Joseph Heller
+"Lyra and her daemon moved through the darkening Hall, taking care to keep to one side, out of sight of the kitchen."	Northern Lights	Lyra and her	Philip Pullman
+"It was 7 minutes after midnight. The dog was lying on the grass in the middle of the lawn in front of Mrs Shears' house. Its eyes were closed."	The Curious Incident of the Dog in the Night-Time	It was seven	Mark Haddon
+"Renowned curator Jacques Sauniere staggered through the vaulted archway of the museum's Grand Gallery."	The Da Vinci Code	Renowned curator Jacques	Dan Brown
+"Amergo Bonasera sat in New York Criminal Court Number 3 and waited for justice; vengeance on the men who had co cruelly hurt his daughter, who had tried to dishonor her."	The Godfather	Amergo Bonasera sat	Mario Puzo
+"Intelligent life on a planet comes of age when it first works out the reason for its own existence."	The Selfish Gene	Intelligent life on	Richard Dawkins
+"The Nellie, a cruising yawl, swung to her anchor without a flutter of the sails, and was at rest."	Heart of Darkness	The Nellie a	Joseph Conrad
+"A squat grey building of only thirty-four storeys."	Brave New World	A squat grey	Aldous Huxley
+"Happy families are all alike; every unhappy family is unhappy in its own way."	Anna Karenina	Happy families are	Leo Tolstoy
+"riverrun, past Eve and Adam's, from swerve of shore to bend of bay, brings us by a commodius vicus of recirculation back to Howth Castle and Environs."	Finnegans Wake	riverrun past Eve	James Joyce
+"Someone must have slandered Josef K., for one morning, without having done anything truly wrong, he was arrested."	The Trial	Someone must have	Franz Kafka
+"You are about to begin reading Italo Calvino's new novel, If on a winter's night a traveler."	If on a winter's night a traveler	You are about	Italo Calvino
+"If you really want to hear about it, the first thing you'll probably want to know is where I was born, and what my lousy childhood was like, and how my parents were occupied and all before they had me, and all that David Copperfield kind of crap, but I don't feel like going into it, if you want to know the truth."	The Catcher in the Rye	If you really	J. D. Salinger
+"This is the saddest story I have ever heard."	The Good Soldier	This is the	Ford Maddox Ford
+"All this happened, more or less."	Slaughterhouse-five	All this happened	Kurt Vonnegut
+"They shoot the white girl first."	Paradise	They shoot the	Toni Morrison
+"Dr. Weiss, at forty, knew that her life had been ruined by literature"	A Start in Life	Dr Weiss at	Anita Brookner
+"Ages ago, Alex, Allen and Alva arrived at Antibes, and Alva allowing all, allowing anyone, against Alex's admonition, against Allen's angry assertion: another African amusement . . . anyhow, as all argued, an awesome African army assembled and arduously advanced against an African anthill, assiduously annihilating ant after ant, and afterward, Alex astonishingly accuses Albert as also accepting Africa's antipodal ant annexation."	Alphabetical Africa	Ages ago Alex	Walter Abish
+"He was an old man who fished alone in a skiff in the Gulf Stream and he had gone eighty-four days now without taking a fish."	The Old Man and the Sea	He was an	Ernest Hemingway
+"I was born twice: first, as a baby girl, on a remarkably smogless Detroit day in January of 1960; and then again, as a teenage boy, in an emergency room near Petoskey, Michigan, in August of 1974."	Middlesex	I was born	Jeffrey Eugenides
+"It was a pleasure to burn."	Fahrenheit 451	It was a	Ray Bradbury
+"In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since."	The Great Gatsby	In my younger	F. Scott Fitzgerald
+"You better not never tell nobody but God"	The Color Purple	You better not	Alice Walker
+"It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn't know what I was doing in New York."	The Bell Jar	It was a	Sylvia Plath
+"The past is a foreign country; they do things differently there."	The Go-Between	The past is	L. P. Hartley
+"Of all the things that drive men to sea, the most common disaster, I've come to learn, is women."	Middle Passage	Of all the	 Charles R. Johnson
+"A few miles south of Soledad, the Salinas River drops in close to the hillside bank and runs deep and green."	Of Mice and Men	A few miles	John Steinbeck
+"Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, who was a farmer, and Aunt Em, who was the farmer's wife."	The Wizard of Oz	Dorothy lived in	L. Frank Baum
+"'What's it going to be then, eh?'"	A Clockwork Orange	What's it going	Anthony Burgess
+"Mr Jones, of the Manor Farm, had locked the hen-houses for the night, but was too drunk to remember to shut the pop-holes."	Animal Farm	Mr Jones of	George Orwell
+"When he was nearly thirteen, my brother Jem got his arm badly broken at the elbow."	To Kill a Mockingbird	When he was	Harper Lee
+"'Tom!' No answer. 'Tom!' No answer. 'What's gone with that boy, I wonder? You Tom!'"	The Adventures of Tom Sawyer	Tom No answer	Mark Twain
+"These are my New Year's resolutions: 1. I will help the blind across the road. 2. I will hang my trousers up. 3. I will put the sleeves back on my records. 4. I will not start smoking. 5. I will stop squeezing my spots. 6. I will be kind to the dog. 7. I will help the poor and ignorant. 8. After hearing the disgusting noises from downstairs last night, I have also vowed to never frink alcohol."	The Secret Diary of Adrian Mole Aged 13 3/4	These are my	Sue Townsend
+"He came into the world in the middle of the thicket, in one of those little, hidden forest glades which seem to be entirely open, but are really screened in on all sides."	Bambi	He came into	Felix Salten
+"They murdered him."	The Chocolate War	They murdered him	Robert Cormier
+"These two very old people are the father and mother of Mr. Bucket."	Charlie and the Chocolate Factory	These two very	Roald Dahl
+"Everyone called him Pop-Eye."	Mister Pip	Everyone called him	Lloyd Jones
+"I have been arrested. For winning a quiz show."	Q&A	I have been	Vikasb Swarup
+"Early in the morning, late in the century, Cricklewood Broadway."	White Teeth	Early in the	Zadie Smith
+"I thought I'd been to Africa. Told all my clas I had."	Small Island	I thought I'd	Andrea Levy
+"My father and mother should have stayed in New York where they met and married and where I was born."	Angela's Ashes	My father and	Frank McCourt
+"I was going to start with the plane crash because that's how come I met Jennifer. But you need to know about my hands first."	The Wrong Hands	I was going	Nigel Richardson
+"You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings."	Frankenstein	You will rejoice	Mary Shelley
+"A green hunting cap squeezed the top of the fleshy balloon of a head."	A Confederacy of Dunces	A green hunting	John Kennedy Toole
+"When Farmer Oak smiled, the corners of his mouth spread till they were within an unimportant distance of his ears, his eyes were reduced to chinks, and diverging wrinkles appeared round them, extending upon his countenance like the rays in a rudimentary sketch of the rising sun."	Far from the Madding Crowd	When Farmer Oak	Thomas Hardy
+"My father's family name being Pirrip, and my Christian name Philip, my infant tongue could make of both names nothing longer or more explicit than Pip."	Great Expectations	My father's family	Charles Dickens
+"Once when I was six years old I saw a beautiful picture in a book about the primeval forest called True Stories. It showed a boa constrictor swallowing an animal. Here is a copy of the drawing."	The Little Prince	Once when I	Antoine de Saint-Exupery
+"When shall we three meet again? In thunder, lightning or in rain?"	Macbeth	When shall we	William Shakespeare
+"I returned from the City about three o'clock on that May afternoon pretty well disgusted with life."	The Thirty-Nine Steps	I returned from	John Buchan
+"1801 - I have just returned from a visit to my landlord - the solitary neighbour that I shall be troubled with."	Wuthering Heights	I have just	Emily Bronte
+"I found him in the garage on a Sunday afternoon. It was the day after we moved into Falconer Road."	Skellig	I found him	David Almond
+"If you are interested in stories with happy endings, you would be better off reading some other book."	A Series of Unfortunate Events: The Bad Beginning	If you are	Lemony Snicket
+"Can I explain why I wanted to jump off the top of a tower-block? Of course I can explain why I wanted to jump off the tope of a tower-block. I'm not a bloody idiot."	A Long Way Down	Can I explain	Nick Hornby
+"Mr. Hungerton, her father, really was the most tactless person upon earth,--a fluffy, feathery, untidy cockatoo of a man, perfectly good-natured, but absolutely centered upon his own silly self."	The Lost World	Mr Hungerton her Arthur Conan Doyle
+"Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, `and what is the use of a book,' thought Alice `without pictures or conversation?'"	Alice's Adventures in Wonderland	Alice was beginning	Lewis Carroll
+"In a village of La Mancha the name of which have no desire to recall, there lived not so long ago one of those gentlemen who always have a lance in the rack, an ancient buckler, a skinny nag, and a greyhound for the chase."	Don Quixote	In a village	Miguel de Cervantes
+"It is this day three hundred and forty-eight years six months and nineteen days that the good people of Paris were awakened by a grand pealing from all the bells in the three districts of the Cite, the Universite, and the Ville."	The Hunchback of Notre-Dame	It is this	Victor Hugo
+"Of man's first disobedience, and the fruit Of that forbidden tree, whose mortal taste Brought death into the world, and all our woe, With loss of Eden."	Paradise Lost	Of man's first	John Milton
+"Once upon a time there were four little Rabbits, and their names were - Flopsy, Mopsy, Cotton-tail, and Peter."	The Tale of Peter Rabbit	Once upon a	Beatrix Potter
+"In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort."	The Hobbit	In a hole	J. R. R. Tolkien
+"The year 1866 was signalized by a remarkable incident, a mysterious and inexplicable phenomenon, which doubtless no one has yet forgotten."	Twenty Thousand Leagues Under the Sea	"The year 1866"
+"The primroses were over."	Watership Down	The primroses were
+"Emma Woodhouse, handsome, clever, and rich, with a comfortable home and happy disposition, seemed to unite some of the best blessings of existence; and had lived nearly twenty-one years in the world with very little to distress or vex her."	Emma	Emma Woodhouse handsome	Jane Austen
+"The drought had lasted now for ten million years, and the reign of the terrible lizards had long since ended. Here on the Equator, in the continent which would one day be known as Africa, the battle for existence had reached a new climax of ferocity, and the victor was not yet in sight."	2001: A Space Odyssey	The drought had	Arthur C. Clarke
+"Midway in our life's journey, I went astray from the straight road and woke to find myself alone in a dark wood."	The Divine Comedy, Inferno	Midway in our	Dante Alighieri
+"Last night I dreamt I went to Manderley again."	Rebecca	Last night I	Daphne du Maurier
+"James Bond, with two double bourbons inside him, sat in the final departure lounge of Miami Airport and though about life and death."	Goldfinger	James Bond with	Ian Fleming
+"Two households, both alike in dignity, In fair Verona, where we lay our scene, From ancient grudge break to new mutiny, Where civil blood makes civil hands unclean."	Romeo and Juliet	Two households both	William Shakespeare
+"To begin at the beginning: It is spring, moonless night in the small town, starless and bible-black."	Under Milk Wood	To begin at	Dylan Thomas
+"No one who had ever seen Catherine Morland in her infancy, would have supposed her born to be an heroine."	Northanger Abbey	No one who	Jane Austen
+"All children, except one, grow up."	Peter Pan	All children except	J. M. Barrie
+"When Mary Lennox was sent to Misselthwaite Manor to live with her uncle, everybody said she was the most disagreeable-looking child ever seen."	The Secret Garden	When Mary Lennox	 Frances Hodgson Burnett
+"Scarlet O'hara was not beautiful, but men seldom realized it when caught by her charm as the Tarleton twins were."	Gone with the Wind	Scarlet O'hara was	 Margaret Mitchell
+"First the colours. Then the humans."	The Book Thief	First the colours	Markus Zusak
+"We were somewhere around Barstow on the edge of the desert when the drugs began to take hold."	Fear and Loathing in Las Vegas	We were somewhere	Hunter S. Thompson
+"A man called Berg, who changed his name to Greb, came to a seaside town intending to kill his father . . ."	Berg	A man called	Ann Quin
+"When that April with it's sweet showers"	The Canterbury Tales	When that April	Geoffrey Chaucer
+"In the beginning God created the heavens and the earth."	The Bible	In the beginning	Some guy
+"He - for there could be no doubt of his sex, though the fashion of the time did something to disguise it - was in the act of slicing at the head of a Moor which swung from the rafters."	Orlando	He - for there	Virginia Woolf
+"Mrs. Dalloway said she would buy the flowers herself."	Mrs Dalloway	Mrs Dalloway said	Virginia Woolf
+"Vietnam, me love you long time. All day, all night, me love you long time."	The Beach	Vietnam me love	Alex Garland
+"Marley was dead: to begin with. There is no doubt whatever about that."	A Christmas Carol	Marley was dead	Charles Dickens
+"In the bosom of one of those spacious coves which indent the eastern shore of the Hudson, at that broad expansion of the river denominated by the ancient Dutch navigators the Tappan Zee, and where they always prudently shortened sail and implored the protection of St. Nicholas when they crossed, there lies a small market town or rural port, which by some is called Greensburgh, but which is more generally and properly known by the name of Tarry Town."	The Legend of Sleepy Hollow	In the bosom	Washington Irving
+"Under certain circumstances there are few hours in life more agreeable than the hour dedicated to the ceremony known as afternoon tea."	The Portrait of a Lady	Under certain circumstances	Henry James
+"I was sick - sick unto death with that long agony; and when they at length unbound me, and I was permitted to sit, I felt that my senses were leaving me. The sentence - the dread sentence of death - was the last of distinct accentuation which reached my ears."	The Pit and the Pendulum	I was sick	Edgar Allen Poe
+"Everything starts somewhere, although many physicists disagree."	Hogfather	Everything starts somewhere	Terry Prachett
+"My suffering left me sad and gloomy."	Life of Pi	My suffering left	Yann Martel
+"'You're for the Governor in the morning,' said this dreary red-headed little Welsh Methodist bastard of a screw."	Confessions of an Irish Rebel	You're for the	Brendan Behan
+"Suppose that you and I were sitting in a quiet room overlooking a garden, chatting and sipping at our cups of green tea while we talked about someting that had happened a long while ago, and I said to you, 'That afternoon when I met so-and-so...was the very best afternoon of my life, and also the worst afternoon.'"	Memoirs of a Geisha	Suppose that you	Arthur Golden
+"Coventry are fuck all. They've got a shit team and shit support."	The Football Factory	Coventry are fuck	John King
+"ABANDON ALL HOPE YE WHO ENTER HERE is scrawled in blood red lettering on the side of the Chemical Bank near the corner of Eleventh and First and is in print large enough to be seen from the backseat of the cab as it lurches forward in the traffic leaving Wall Street and just as Timothy Price notices the words a bus pulls up, the advertisement for Les Miserables on its side blocking his view, but Price who is with Pierce & Pierce and twenty-six doesn't seem to care because he tells the driver he will give him five dollars to turn up the radio, "Be My Baby" on WYNN, and the driver, black, not American, does so."	American Psycho	Abandon all hope	Brent Easton
+"Old longings nomadic leap, Chafing at custom's chain; Again from its brumal sleep Wakens the ferine strain."	The Call of the Wild	Old Longings nomadic	Jack London
+"So things were ticking along quite nicely."	Slam	So things were	Nick Hornby
+"Like most people I lived for a long time with my mother and father."	Oranges Are Not The Only Fruit	Like most people	Jeanette Winterson
+"For a man of his age, fifty-two, divorced, he has, to his mind, solved the problem of sex rather well."	Disgrace	For a man	J. M. Coetzee
+"Who is John Galt?"	Atlas Shrugged	Who is John	Ayn Rand
+"The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents."	The Call of Cthulhu	The most merciful	H.P.Lovecraft
+"It was the day my grandmother exploded."	The Crow Road	It was the Iain Banks
+"When a day that you happen to know is Wednesday starts off by sounding like Sunday, there is something seriously wrong somewhere."	The Day of the Triffids	When a day	John Wyndham
+"A screaming comes across the sky."	Gravity's Rainbow	A screaming comes	Thomas Pynchon
+"To the red country and part of the gray country of Oklahoma, the last rains came gently, and they did not cut the scarred earth."	The Grapes of Wrath	To the red	John Steinbeck
+"It was seven o'clock of a very warm evening in the Seeonee hills when Father Wolf woke up from his day's rest, scratched himself, yawned, and spread out his paws one after the other to get rid of the sleepy feeling in their tips."	The Jungle Book	It was seven	Rudyard Kipling
+"'Christmas won't be Christmas without any presents,' grumbled Jo, lying on the rug."	Little Women	Christmas won't be	Louisa May Alcott
+"The boy with fair hair lowered himself down the last few feet of rock and began to pick his way towards the lagoon."	Lord of the Flies	The boy with	William Golding
+"'To be born again,' sang Gibreel Farishta tumbling from the heavens, 'first you have to die.'"	The Satanic Verses	To be born	Salman Rushdie
+"The year that Buttercup was born, the most beautiful woman in the world was a French scullery maid named Annette."	The Princess Bride	The year that	William Goldman
+"I am the vampire Lestat."	The Vampire Lestat	I am the	Anne Rice
+"The sweat wis lashing oafay Sick Boy; he wis trembling."	Trainspotting	The sweat wis	Irvine Welsh
+"You donÅft know about me without you have read a book by the name of The Adventures of Tom Sawyer, but that ainÅft no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly."	The Adventures of Huckleberry Finn	You don't know	Mark Twain
+"I am a sick manÅc I am a spiteful man. I am an unattractive man. I think my liver is diseased."	Notes from the Underground	I am a	Fyodor Dostoevsky
+"Once upon a time and a very good time it was there was a moocow coming down along the road and this moocow that was coming down along the road met a nicens little boy named baby tuckoo."	A Portrait of the Artist as a Young Man	Once upon a	James Joyce
+"I remember how, that night, I lay awake in the wagon-lit in a tender, delicious ecstasy of excitement, my burning cheek pressed against the impeccable linen of the pillow and the pounding of my heart mimicking that of the great pistons ceaselessly thrusting the train that bore me through the night, away from Paris, away from girlhood, away from the white, enclosed quietude of my mother's apartment, into the unguessable country of marriage."	The Bloody Chamber	I remember how	Angela Carter

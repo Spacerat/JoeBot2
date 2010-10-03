@@ -24,8 +24,8 @@ Who is {1}?
 {1} is the Roman {1}.
 
 m4,a0
-Which greek god is {4}?
-{0} is {4}.
+Which greek god is {3}?
+{0} is {3}.
 
 
 Zeus	Jupiter	god of the sky & storms. King of Olympus	married to Hera

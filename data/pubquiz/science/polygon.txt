@@ -12,33 +12,33 @@ What is the internal angle of a {0} sided {1}?
 A {1} has {0} sides, and an internal angle of {2} degrees.
 
 
-3	Triangle	60°
-4	Square or Quadrilateral	90°
-5	Pentagon	108°
-6	Hexagon	120°
-7	Heptagon	128.571°
-8	Octagon	135°
-9	Nonagon or Ennagon	140°
-10	Decagon	144°
-11	Hendecagon or Undecagon	147.273°
-12	Dodecagon	150°
-13	Triskaidecagon	152.308°
-14	Tetrakaidecagon	154.286°
-15	Pendedecagon	156°
-16	Hexdecagon	157.5°
-17	Heptdecagon	158.824°
-18	Octdecagon	160°
-19	Enneadecagon	161.053°
-20	Icosagon	162°
-30	Triacontagon	168°
-40	Tetracontagon	171°
-50	Pentacontagon	172.8°
-60	Hexacontagon	174°
-70	Heptacontagon	174.857°
-80	Octacontagon	175.5°
-90	Enneacontagon	176°
-100	Hectagon	176.4°
-1000	Chiliagon	179.640°
-10000	Myriagon	179.964°
-100000	Megagon	179.996°
-10e100	Googolgon	almost 180° :-)
+3	Triangle	60 degrees
+4	Square or Quadrilateral	90 degrees
+5	Pentagon	108 degrees
+6	Hexagon	120 degrees
+7	Heptagon	128.571 degrees
+8	Octagon	135 degrees
+9	Nonagon or Ennagon	140 degrees
+10	Decagon	144 degrees
+11	Hendecagon or Undecagon	147.273 degrees
+12	Dodecagon	150 degrees
+13	Triskaidecagon	152.308 degrees
+14	Tetrakaidecagon	154.286 degrees
+15	Pendedecagon	156 degrees
+16	Hexdecagon	157.5 degrees
+17	Heptdecagon	158.824 degrees
+18	Octdecagon	160 degrees
+19	Enneadecagon	161.053 degrees
+20	Icosagon	162 degrees
+30	Triacontagon	168 degrees
+40	Tetracontagon	171 degrees
+50	Pentacontagon	172.8 degrees
+60	Hexacontagon	174 degrees
+70	Heptacontagon	174.857 degrees
+80	Octacontagon	175.5 degrees
+90	Enneacontagon	176 degrees
+100	Hectagon	176.4 degrees
+1000	Chiliagon	179.640 degrees
+10000	Myriagon	179.964 degrees
+100000	Megagon	179.996 degrees
+10e100	Googolgon	almost 180 degrees :-)

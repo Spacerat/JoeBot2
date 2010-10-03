@@ -1,0 +1,245 @@
+
+m4,a0
+Which of the following flags belongs to {1}?
+{1}'s flag is {0}!
+
+m4,a1
+{0} is the flag of which country?
+{1}'s flag is {0}!
+
+
+(flag:ad)	Andorra
+(flag:ae)	United Arab Emirates
+(flag:af)	Afghanistan
+(flag:ag)	Antigua and Barbuda
+(flag:ai)	Anguilla
+(flag:al)	Albania
+(flag:am)	Armenia
+(flag:an)	Netherlands Antilles
+(flag:ao)	Angola
+(flag:aq)	Antarctica
+(flag:ar)	Argentina
+(flag:as)	American Samoa
+(flag:at)	Austria
+(flag:au)	Australia
+(flag:aw)	Aruba
+(flag:az)	Azerbaijan
+(flag:ba)	Bosnia and Herzegovina
+(flag:bb)	Barbados
+(flag:bd)	Bangladesh
+(flag:be)	Belgium
+(flag:bf)	Burkina Faso
+(flag:bg)	Bulgaria
+(flag:bh)	Bahrain
+(flag:bi)	Burundi
+(flag:bj)	Benin
+(flag:bm)	Bermuda
+(flag:bn)	Brunei Darussalam
+(flag:bo)	Bolivia
+(flag:br)	Brazil
+(flag:bs)	Bahamas
+(flag:bt)	Bhutan
+(flag:bw)	Botswana
+(flag:by)	Belarus
+(flag:bz)	Belize
+(flag:ca)	Canada
+(flag:cc)	Cocos (Keeling) Islands
+(flag:cd)	Congo, The Democratic Republic of the
+(flag:cf)	Central African Republic
+(flag:cg)	Congo
+(flag:ch)	Switzerland
+(flag:ci)	Cote d'Ivoire
+(flag:ck)	Cook Islands
+(flag:cl)	Chile
+(flag:cm)	Cameroon
+(flag:cn)	China
+(flag:co)	Colombia
+(flag:cr)	Costa Rica
+(flag:cu)	Cuba
+(flag:cv)	Cape Verde
+(flag:cx)	Christmas Island
+(flag:cy)	Cyprus
+(flag:cz)	Czech Republic
+(flag:de)	Germany
+(flag:dj)	Djibouti
+(flag:dk)	Denmark
+(flag:dm)	Dominica
+(flag:do)	Dominican Republic
+(flag:dz)	Algeria
+(flag:ec)	Ecuador
+(flag:ee)	Estonia
+(flag:eg)	Egypt
+(flag:eh)	Western Sahara
+(flag:er)	Eritrea
+(flag:es)	Spain
+(flag:et)	Ethiopia
+(flag:fi)	Finland
+(flag:fj)	Fiji
+(flag:fk)	Falkland Islands (Malvinas)
+(flag:fm)	Micronesia, Federated States of
+(flag:fo)	Faroe Islands
+(flag:fr)	France
+(flag:ga)	Gabon
+(flag:gb)	United Kingdom
+(flag:gd)	Grenada
+(flag:ge)	Georgia
+(flag:gf)	French Guiana
+(flag:gh)	Ghana
+(flag:gi)	Gibraltar
+(flag:gl)	Greenland
+(flag:gm)	Gambia
+(flag:gn)	Guinea
+(flag:gp)	Guadeloupe
+(flag:gq)	Equatorial Guinea
+(flag:gr)	Greece
+(flag:gs)	South Georgia and the South Sandwich Islands
+(flag:gt)	Guatemala
+(flag:gu)	Guam
+(flag:gw)	Guinea-Bissau
+(flag:gy)	Guyana
+(flag:hk)	Hong Kong
+(flag:hm)	Heard Island and McDonald Islands
+(flag:hn)	Honduras
+(flag:hr)	Croatia
+(flag:ht)	Haiti
+(flag:hu)	Hungary
+(flag:id)	Indonesia
+(flag:ie)	Ireland
+(flag:il)	Israel
+(flag:in)	India
+(flag:io)	British Indian Ocean Territory
+(flag:iq)	Iraq
+(flag:ir)	Iran, Islamic Republic of
+(flag:is)	Iceland
+(flag:it)	Italy
+(flag:jo)	Jordan
+(flag:jp)	Japan
+(flag:ke)	Kenya
+(flag:kg)	Kyrgyzstan
+(flag:kh)	Cambodia
+(flag:ki)	Kiribati
+(flag:km)	Comoros
+(flag:kn)	Saint Kitts and Nevis
+(flag:kp)	Korea, Democratic People's Republic of
+(flag:kr)	Korea, Republic of
+(flag:kw)	Kuwait
+(flag:ky)	Cayman Islands
+(flag:kz)	Kazakhstan
+(flag:la)	Lao People's Democratic Republic
+(flag:lb)	Lebanon
+(flag:lc)	Saint Lucia
+(flag:li)	Liechtenstein
+(flag:lk)	Sri Lanka
+(flag:lr)	Liberia
+(flag:ls)	Lesotho
+(flag:lt)	Lithuania
+(flag:lu)	Luxembourg
+(flag:lv)	Latvia
+(flag:ly)	Libyan Arab Jamahiriya
+(flag:ma)	Morocco
+(flag:mc)	Monaco
+(flag:md)	Moldova, Republic of
+(flag:mg)	Madagascar
+(flag:mh)	Marshall Islands
+(flag:mk)	Macedonia, The Former Yugoslav Republic of
+(flag:ml)	Mali
+(flag:mm)	Myanmar
+(flag:mn)	Mongolia
+(flag:mo)	Macao
+(flag:mp)	Northern Mariana Islands
+(flag:mq)	Martinique
+(flag:mr)	Mauritania
+(flag:ms)	Montserrat
+(flag:mt)	Malta
+(flag:mu)	Mauritius
+(flag:mv)	Maldives
+(flag:mw)	Malawi
+(flag:mx)	Mexico
+(flag:my)	Malaysia
+(flag:mz)	Mozambique
+(flag:na)	Namibia
+(flag:nc)	New Caledonia
+(flag:ne)	Niger
+(flag:nf)	Norfolk Island
+(flag:ng)	Nigeria
+(flag:ni)	Nicaragua
+(flag:nl)	Netherlands
+(flag:no)	Norway
+(flag:np)	Nepal
+(flag:nr)	Nauru
+(flag:nu)	Niue
+(flag:nz)	New Zealand
+(flag:om)	Oman
+(flag:pa)	Panama
+(flag:pe)	Peru
+(flag:pf)	French Polynesia
+(flag:pg)	Papua New Guinea
+(flag:ph)	Philippines
+(flag:pk)	Pakistan
+(flag:pl)	Poland
+(flag:pm)	Saint Pierre and Miquelon
+(flag:pn)	Pitcairn
+(flag:pr)	Puerto Rico
+(flag:ps)	Palestinian Territory, Occupied
+(flag:pt)	Portugal
+(flag:pw)	Palau
+(flag:py)	Paraguay
+(flag:qa)	Qatar
+(flag:re)	Reunion
+(flag:ro)	Romania
+(flag:ru)	Russian Federation
+(flag:rw)	Rwanda
+(flag:sa)	Saudi Arabia
+(flag:sb)	Solomon Islands
+(flag:sc)	Seychelles
+(flag:sd)	Sudan
+(flag:se)	Sweden
+(flag:sg)	Singapore
+(flag:sh)	Saint Helena, Ascension and Tristan da Cunha
+(flag:si)	Slovenia
+(flag:sk)	Slovakia
+(flag:sl)	Sierra Leone
+(flag:sm)	San Marino
+(flag:sn)	Senegal
+(flag:so)	Somalia
+(flag:sr)	Suriname
+(flag:st)	Sao Tome and Principe
+(flag:sv)	El Salvador
+(flag:sy)	Syrian Arab Republic
+(flag:sz)	Swaziland
+(flag:tc)	Turks and Caicos Islands
+(flag:td)	Chad
+(flag:tf)	French Southern Territories
+(flag:tg)	Togo
+(flag:th)	Thailand
+(flag:tj)	Tajikistan
+(flag:tk)	Tokelau
+(flag:tl)	Timor-Leste
+(flag:tm)	Turkmenistan
+(flag:tn)	Tunisia
+(flag:to)	Tonga
+(flag:tr)	Turkey
+(flag:tt)	Trinidad and Tobago
+(flag:tv)	Tuvalu
+(flag:tw)	Taiwan
+(flag:tz)	Tanzania, United Republic of
+(flag:ua)	Ukraine
+(flag:ug)	Uganda
+(flag:um)	United States Minor Outlying Islands
+(flag:us)	United States
+(flag:uy)	Uruguay
+(flag:uz)	Uzbekistan
+(flag:va)	Holy See (Vatican City State)
+(flag:vc)	Saint Vincent and the Grenadines
+(flag:ve)	Venezuela, Bolivarian Republic of
+(flag:vg)	Virgin Islands, British
+(flag:vi)	Virgin Islands, U.S.
+(flag:vn)	Viet Nam
+(flag:vu)	Vanuatu
+(flag:wf)	Wallis and Futuna
+(flag:ws)	Samoa
+(flag:ye)	Yemen
+(flag:yt)	Mayotte
+(flag:za)	South Africa
+(flag:zm)	Zambia
+(flag:zw)	Zimbabwe
