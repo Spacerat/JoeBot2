@@ -12,6 +12,7 @@ class ConsoleInterface(modules.Interface):
         self.chat_name="Console"
         self.bot_nick="Console"
         self.bot_handle="Console"
+        self.message_status="READ"
         self.users={self.bot_nick:self.bot_handle}
 
     def reply(self, text,edit=False):
