@@ -3,6 +3,7 @@ import urllib2
 import command
 import random
 import os
+from libs import data
 
 categories={}
 current_question=None
@@ -99,6 +100,9 @@ class PubQuiz:
         question = Question(text,answerstr,choices,q.type,comment,q.commas, num)
         return question
 
+def AddUserIfNotExists(user):
+    data.query("INSERT OR IGNORE INTO pubquiz_stats (handle) VALUES (?)", (user,))
+
 class Question:
     def __init__(self,text,answer,choices=None,type="",comment="",commas=False,correctnum=0):
         self.text=text
@@ -108,6 +112,8 @@ class Question:
         self.comment=comment
         self.commas = commas
         self.correctnum = correctnum
+        self.attempted = []
+        self.attemptors = {}
 
     def __str__(self):
         s = self.text
@@ -119,9 +125,10 @@ class Question:
                 s+=", ".join(self.choices)
         return s
 
-    def check_answer(self,ans):
+    def check_answer(self,ans,user):
+        AddUserIfNotExists(user)
+        self.attemptors[user] = True
 
-                
         if self.type=='multi':
             if len(ans)==1:
                 try:
@@ -130,29 +137,49 @@ class Question:
                     pass
                 else:
                     if x == self.correctnum:
+                        self.attempted.append(x)
                         return True
                     else:
-                        return False
+                        if not x in self.attempted:
+                            self.attempted.append(x)
+                            return 0
+                        else:
+                            return -3
+
             check = ans.strip().lower()
+            tried = 0
             if check!=self.answer:
                 correct = False
                 ambig = 0
-                for x in self.choices:
+                for n, x in enumerate(self.choices):
                     if check in x.strip().lower():
+                        tried = n+1
                         ambig+=1
                         if x == self.answer:
                             correct = True
             else:
+                self.attempted.append(check)
                 return True
 
             if ambig==0: return -2
             if ambig>1: return -1
-            if correct == True: return 1
-            return 0
+            if correct == True:
+                self.attempted.append(tried)
+                return 1
+            if not tried in self.attempted:
+                self.attempted.append(tried)
+                return 0
+            else:
+                return -3
         else:
-            if ans.strip().lower()==self.answer.strip().lower():
+            a = ans.strip().lower()
+            if a in self.attempted:
+                return -3
+            elif a == self.answer.strip().lower():
+                self.attempted.append(a)
                 return 1
             else:
+                self.attempted.append(a)
                 return 0
 
 def command_pubquiz(i,command,args):
@@ -164,21 +191,51 @@ def command_pubquiz(i,command,args):
     
     if current_question:
         if args:
+            pq = current_question
             try:
-                a = current_question.check_answer(args)
-            except:
-                i.reply("Error. Abandoning question.")
+                a = current_question.check_answer(args,i.user_address)
+            except UnicodeError:
+                i.reply("Unicode Error. Abandoning question.")
                 current_question = None
                 return
             if a==1:
-                i.reply("Correct! "+current_question.comment)
+                if current_question.type=='multi':
+                    points = len(current_question.choices)-len(current_question.attempted)
+                else:
+                    points=3
+
+                data.query("UPDATE pubquiz_stats SET attempts=attempts+1,score=score+?,correct=correct+1 WHERE handle=?",(points,i.user_address))
+                stats = data.query("SELECT * FROM pubquiz_stats WHERE handle=?",(i.user_address,))[0]
+
+                i.reply("Correct, +%d points! %s"%(points,current_question.comment))
+                c = float(stats[1])
+                a = float(stats[2])
+                p = (c/a)*100
+                i.reply("%s now has %d points and %d%% correct attempts."%(i.user_name,stats[3],p))
+                
+
                 current_question=None
             elif a==0:
                 i.reply("Incorrect.")
+                data.query("UPDATE pubquiz_stats SET attempts=attempts+1 WHERE handle=?",(i.user_address,))
             elif a==-1:
                 i.reply("Ambiguous answer.")
             elif a==-2:
                 i.reply("Not an option.")
+            elif a==-3:
+                i.reply("Someone already tried that!")
+
+
+            if current_question:
+                if (len(current_question.attempted) == len(current_question.choices)-1) and current_question.type=="multi":
+                    i.reply("You all fail! "+current_question.comment)
+                    current_question=None
+
+            if not current_question:
+                for u in pq.attemptors.keys():
+                    data.query("UPDATE pubquiz_stats SET questions=questions+1 WHERE handle=?",(u,))
+
+
                 
         else:
             i.reply(str(current_question))
@@ -226,7 +283,12 @@ def init():
         if i[-4:]!=".txt":
             if not i.lower() in categories: categories[i.lower()] = {}
             for q in os.listdir('data/pubquiz/'+i):
-                n = PubQuiz('data/pubquiz/'+i+'/'+q)
-                categories['all'][q.lower()[:-4]] = n
-                categories[i.lower()][q.lower()[:-4]] = n
+                if q[-4:]==".txt":
+                    n = PubQuiz('data/pubquiz/'+i+'/'+q)
+                    categories['all'][q.lower()[:-4]] = n
+                    categories[i.lower()][q.lower()[:-4]] = n
     current_category='all'
+
+    data.query('''CREATE TABLE IF NOT EXISTS pubquiz_stats
+    (handle TEXT NOT NULL , correct INTEGER DEFAULT 0, attempts INTEGER DEFAULT 0, score INTEGER DEFAULT 0, questions INTEGER DEFAULT 0, record_time INTEGER DEFAULT 0,
+    PRIMARY KEY (handle))''')
