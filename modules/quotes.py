@@ -145,6 +145,7 @@ def GetQuoteByString(search,n=1,db=None):
         SELECT text
         FROM quotes
         WHERE text RLIKE ('%s')
+        AND hidden = 0
         ORDER BY RAND()
         LIMIT %u
     """%(search,n))
