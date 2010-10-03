@@ -12,3 +12,6 @@
 
 #netbeans
 /nbproject/*
+
+#logs
+/data/logs/*
