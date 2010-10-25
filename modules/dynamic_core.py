@@ -44,7 +44,7 @@ class TagContext():
             self.interface = i
             self.vars['sender']=i.user_name
             self.vars['handle']=i.user_address
-            self.vars['users']=i.users.keys()
+            self.vars['users']=i.users
             self.vars['prefix']=i.prefix
 
         for x, arg in enumerate(args.split()):
@@ -142,6 +142,8 @@ class ContainerNode(Node):
 
     def process_children(self,context):
         value=''
+        if len(self.children)==1:
+            return self.children[0].process(context)
         for child in self.children:
             value += stringify(child.process(context))
         return value

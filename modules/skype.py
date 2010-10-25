@@ -76,6 +76,15 @@ class SkypeInterface(modules.Interface):
 
     @property
     def users(self):
+        r = []
+        for u in self.message.Chat.Members:
+            if u.FullName.strip()=='': continue
+            r.append(u.FullName)
+
+        return r
+
+    @property
+    def users_handles(self):
         r = {}
         for u in self.message.Chat.Members:
             if u.FullName.strip()=='': continue
@@ -97,7 +106,7 @@ def OnAttach(status):
         skype.Attach();
 
     if status == Skype4Py.apiAttachSuccess:
-       logging.info('Connected to skype!')
+       logging.info('Connected t skype!')
 
 # ----------------------------------------------------------------------------------------------------
 # Fired on chat message status change.
@@ -142,5 +151,4 @@ def command_skype(interface,hook,args):
 
 def init():
     start()
-
-command.ComHook('skype',command_skype,name="EchoBot",security=4)
+    command.ComHook('skype',command_skype,name="EchoBot",security=4)
