@@ -1,5 +1,5 @@
 
-from dynamic_core import register_tag, registered_tags, get_var
+from dynamic_core import register_tag, registered_tags, get_var, stringify
 import command
 import random
 
@@ -29,6 +29,14 @@ def tag_upper(node,context):
 def tag_nospaces(node,context):
     """<nospaces>string</upper> - Removes whitespace from the string."""
     return node.process_children(context).replace(" ","")
+def tag_str(node,context):
+    v = ""
+    for child in node.children:
+        v+=stringify(child.process(context))
+    return v
+def tag_stripstr(node,context):
+    v = tag_str(node,context)
+    return v.strip()
 
 def context_hook(context):
     context.vars['commands']=command.com_hooks.keys()
@@ -43,4 +51,6 @@ def init():
     register_tag('upper',tag_upper)
     register_tag('lower',tag_lower)
     register_tag('nospaces',tag_nospaces)
+    register_tag('str',tag_str)
+    register_tag('stripstr',tag_stripstr)
     add_hook('context',context_hook)
