@@ -258,13 +258,10 @@ def Handle(interface,hook,args):
 
         else:
             q=None
-            handle = interface.users.get(args,aliases.get(args.lower()))
             if hook.hook=="randomquote":
                 q=GetRandomQuote()
-            elif handle==None:
-                q=GetQuoteByString(args)
             else:
-                q=GetQuoteByHandle(handle)
+                q=GetQuoteByString(args)
 
             if q==None or len(q)==0:
                 interface.reply("No quotes stored for "+args)
