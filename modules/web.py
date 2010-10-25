@@ -90,6 +90,12 @@ def dosoup(page,node,context,sibling=False):
         if 'n' in soupargs.keys():
             n=int(soupargs.get('n',0))
             del soupargs['n']
+        elif 'list' in soupargs.keys():
+            print "dat list"
+            name = node.attribute.partition(" ")[0]
+            del soupargs['list']
+            return doc.findAll(name,soupargs)
+
     name = node.attribute.partition(" ")[0]
     if sibling == False:
         if n==0:
