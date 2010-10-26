@@ -20,4 +20,4 @@ web
 replacebot
 fortune
 pubquiz
-language
+irc
