@@ -114,22 +114,26 @@ def load_modules(list):
             print e
 
 class Interface:
+    
+    interfaces = {}
 
     def reply(self, text, edit=False): pass
     def reply_to_sender(self, text):self.reply(text)
     @property
     def last_messages(self): pass
     @property
-    def user_name(self): pass
+    def user_name(self): return "<user name>"
     @property
-    def user_address(self): pass
+    def user_address(self): return "<user address>"
     @property
     def type(self):return 'Null'
     @property
     def is_editable(self): return False
     @property
-    def chat_name(self): pass
+    def chat_name(self): return "<chat name>"
     @property
-    def bot_nick(self): pass
+    def bot_nick(self): return "<bot nick>"
     @property
-    def bot_handle(self): pass
+    def bot_handle(self): return "<bot handle>"
+    @property
+    def interface_name(self): return "interfaces"
