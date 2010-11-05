@@ -96,6 +96,10 @@ class SkypeInterface(modules.Interface):
     def chat_name(self):
         return self.message.ChatName
 
+    @property
+    def interface_name(self):
+        return self.chat_name
+
 skype = Skype4Py.Skype()
 
 # ----------------------------------------------------------------------------------------------------
@@ -116,6 +120,9 @@ def OnMessageHistory(Username):
     print "History: ",Username
 
 def OnMessageStatus(Message, Status):
+
+    modules.Interface.interfaces[Message.ChatName] = SkypeInterface(Message,'RECEIVED',skype)
+
     if Status=='SENT' or Status=='RECEIVED':
         modules.call_hook('message',Message.Body,interface=SkypeInterface(Message,Status,skype))
     if Status=='READ' or Status =='SENT':

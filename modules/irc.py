@@ -15,6 +15,7 @@ class IRCInterface(modules.Interface):
 
         self.channel = channel
         self.chat_name = self.channel.name
+        self.interface_name = irc.network.server+self.channel.name
 
         self.nick=nick
         self.user_name = self.nick
@@ -46,6 +47,7 @@ class IRCInterface(modules.Interface):
         for x in self.channel.nicks:
             r.append(x)
         return r
+
 
 class User():
     def __init__(self,username, address, nick, realname):
@@ -87,9 +89,13 @@ class IRC(threading.Thread):
             print stuff
 
     def join(self,channel):
+
         self.send("JOIN %s" % channel)
         self.send("WHO %s"%channel)
         self.channels[channel] =  Channel(channel)
+
+        if not self.network.server+channel in modules.Interface.interfaces:
+            modules.Interface.interfaces[self.network.server+channel] = IRCInterface(self,self.channels[channel],"")
 
     def run(self):
         dprint = self.dprint
