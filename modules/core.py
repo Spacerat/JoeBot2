@@ -24,6 +24,10 @@ def command_reload(interface,command,args):
     command_unload(interface,command,args)
     command_load(interface,command,args)
 
+def get_connections(interface,command,args):
+    print modules.Interface.interfaces
+
 command.ComHook('load',command_load,security=4,name='ChatBot',prefix="~")
 command.ComHook('unload',command_unload,security=4,name='ChatBot',prefix="~")
 command.ComHook('reload',command_reload,security=4,name='ChatBot',prefix="~")
+command.ComHook('getconns',get_connections,security=4,name='ChatBot',prefix="~")
