@@ -62,7 +62,7 @@ def tag_format_html(node,context):
     if node.type=='tag':
         s = stringsafety.FormatHTML(dynamic_core.get_var(node.attribute,context))
     elif node.type=='cont':
-        s= stringsafety.FormatHTML(node.process_children(context))
+        s= stringsafety.FormatHTML(dynamic_core.stringify(node.process_children(context)))
 
     if len(s)>550:
         return s[0:447]+"..."
