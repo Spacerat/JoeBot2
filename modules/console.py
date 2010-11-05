@@ -4,6 +4,9 @@ import modules
 class ConsoleInterface(modules.Interface):
 
     def __init__(self):
+        if not 'console' in modules.Interface.interfaces:
+            modules.Interface.interfaces['console'] = self
+
         self.name="Console"
         self.prefix="!"
         self.user_name="Console"
@@ -13,6 +16,7 @@ class ConsoleInterface(modules.Interface):
         self.bot_nick="Console"
         self.bot_handle="Console"
         self.message_status="READ"
+        self.interface_name='console'
         self.users={self.bot_nick:self.bot_handle}
 
     def reply(self, text,edit=False):
