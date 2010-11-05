@@ -21,3 +21,4 @@ replacebot
 fortune
 pubquiz
 irc
+scheduler
