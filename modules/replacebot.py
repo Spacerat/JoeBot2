@@ -7,8 +7,9 @@ from libs import data
 autoreplace = True
 
 def command_toggle_autoreplace(i,command,args):
-    global autoreplace
     """~autoreplace - Toggles the autoreplace bot."""
+    global autoreplace
+    
     if autoreplace == True:
         autoreplace = False
         i.reply("Disabled.")
@@ -32,20 +33,22 @@ def get_all_replacements():
     return data.query('''SELECT * FROM replacebot_subs''')
 
 def command_replace(i,command,args):
+    '''Replace all instances of a string with another string. E.g. ~replace hello -> goodbye'''
     args=args.rpartition("->")
     find=args[0].strip().lower()
     replace=args[2].strip().lower()
-    if find=="" or replace=="":
+    if find=="":
         i.reply("Use !replace find->replace.")
         return
     add_replacement(find,replace,False,i.user_name)
     i.reply("Replacing %s with %s."%(find,replace))
 
 def command_rxreplace(i,command,args):
+    '''Replace all instances of a matched regex string with a string of your own. E.g. ~rxreplace (.*?ation) -> masturbation.'''
     args=args.rpartition("->")
     find=args[0].strip()
     replace=args[2].strip()
-    if find=="" or replace=="":
+    if find=="":
         i.reply("Use !rxreplace regex->replace.")
         return
     add_replacement(find,replace,True,i.user_name)

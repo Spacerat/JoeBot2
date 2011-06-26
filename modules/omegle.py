@@ -15,7 +15,7 @@ class Omg(threading.Thread):
         self.named = named
     def run(self):
         if self.i.chat_name in Omg.chats.keys():
-            self.i.reply("~An Omegle chat is already going on in this conversation!")
+            self.i.reply("An Omegle chat is already going on in this conversation!")
             return
 
         c = omeglelib.OmegleChat()
@@ -27,8 +27,8 @@ class Omg(threading.Thread):
         try:
             c.connect(False)
         except urllib2.URLError, e:
-            self.i.reply("~Error while connecting!")
-            self.i.reply("~%s"%str(e))
+            self.i.reply("Error while connecting!")
+            self.i.reply("%s"%str(e))
             c.disconnect()
 
 
@@ -39,7 +39,7 @@ class Omg(threading.Thread):
             else:
                 self.chat.say(text)
         except urllib2.HTTPError, e:
-            self.i.reply("~%u Error while sending %s" %(e.code,text))
+            self.i.reply("%u Error while sending %s" %(e.code,text))
 
 
 class SkypeMeggleEvents(omeglelib.EventHandler):
@@ -48,8 +48,8 @@ class SkypeMeggleEvents(omeglelib.EventHandler):
         self.i = interface
 
     def connected(self,chat,var):
-        self.i.reply("~OmegleBot: New chat started!")
-        self.i.reply("~Prefix messages with ~ to omit them from the omegle conversation.")
+        self.i.reply("OmegleBot: New chat started!")
+        self.i.reply("Prefix messages with + to send them to omegle.")
 
         if chat.named:
             sleep(1)
@@ -69,11 +69,11 @@ class SkypeMeggleEvents(omeglelib.EventHandler):
 
     def strangerDisconnected(self,chat,var):
 
-        self.i.reply("~OmegleBot: Stranger left.")
-        chat.terminate()
+        self.i.reply("OmegleBot: Stranger left.")
+        del Omg.chats[self.i.chat_name]
 
     def terminate(self,chat,var):
-        self.i.reply("~Terminating OmegleBot.")
+        self.i.reply("Terminating OmegleBot.")
         del Omg.chats[self.i.chat_name]
 
 def start_omegle(i,command,args):
@@ -95,7 +95,8 @@ def end_omegle(i,command,args):
     try:
         c = Omg.chats[i.chat_name]
         c.chat.disconnect()
-    except:
+    except Exception as e:
+        print e
         i.reply("There is no omegle session currently running in this conversation.")
 
 def message_hook(text,interface):
@@ -103,9 +104,9 @@ def message_hook(text,interface):
         Omg.Chats = {}
     c = Omg.chats.get(interface.chat_name,None)
     if not c: return
-    if text[0] in ("~","!"): return
+    if not text[0] in ("+"): return
     if c.chat.terminated: return
-    c.say(text,interface.user_name)
+    c.say(text[1:],interface.user_name)
 
 def terminate():
     print "Terminating chats."

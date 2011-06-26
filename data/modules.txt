@@ -13,7 +13,7 @@ words
 lastfm
 wunderground
 quotes
-#omegle
+omegle
 google
 #urbandictionary
 web
@@ -21,4 +21,7 @@ replacebot
 fortune
 pubquiz
 irc
-scheduler
+#scheduler
+zmachine
+shinbot
+wolframbot

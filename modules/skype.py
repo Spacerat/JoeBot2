@@ -51,6 +51,11 @@ class SkypeInterface(modules.Interface):
         except:
             pass
 
+    #for Z machine
+    @property
+    def channel(self):
+        return 'skype'
+
     @property
     def is_editable(self):
         return self.message.IsEditable
