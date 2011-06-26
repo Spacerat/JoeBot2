@@ -8,6 +8,7 @@ import time
 
 user_agent = "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3"
 
+
 class EventHandler:
     def fire(self,event,chat,var):
         ''' Callback class. Var is info relating to the event '''
@@ -16,7 +17,7 @@ class EventHandler:
 
 class OmegleChat:
     def __init__(self,_id=None,debug=False):
-        self.url = "http://omegle.com/"
+        self.url = "http://cardassia.omegle.com/"
         self.id = _id
         self.failed = False
         self.connected = False
@@ -60,7 +61,6 @@ class OmegleChat:
     def terminate(self):
         ''' Terminate the thread. Don't call directly, use .disconnect() instead '''
         self.terminated = True
-        self.fire("terminate",None)
 
     def open_page(self,page,data={}):
         if self.terminated:
@@ -82,7 +82,9 @@ class OmegleChat:
     def disconnect(self):
         ''' Close the chat '''
         self.open_page('disconnect',{})
+        self.fire('terminate',None)
         self.terminate()
+
 
     def typing(self):
         ''' Tell the stranger we are typing '''
@@ -95,7 +97,7 @@ class OmegleChat:
     def connect(self,threaded=True):
         ''' Start a chat session'''
         if not self.id:
-            self.id = self.connector.open(self.url+'start',data={}).read().strip('"')
+            self.id = self.connector.open(self.url+'start',data='').read().strip('"')
 
         self.connected = True
         if threaded:
@@ -121,6 +123,7 @@ class OmegleChat:
                 continue
             if self.debug: print events
             for event in events:
+                print event
                 if len(event) > 1:
                     self.fire(event[0],event[1:])
                 else:
@@ -153,5 +156,5 @@ if __name__=='__main__':
         a = OmegleChat()
         a.connect_events(MyEventHandler())
         a.connect(True)
+        a.waitForTerminate()
     raw_input()
-

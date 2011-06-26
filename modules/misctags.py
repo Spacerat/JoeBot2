@@ -1,5 +1,5 @@
 
-from dynamic_core import register_tag, registered_tags, get_var, stringify
+from dynamic_core import register_tag, registered_tags, get_var, stringify, get_tag_help
 import command
 import random
 
