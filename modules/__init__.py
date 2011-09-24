@@ -56,14 +56,14 @@ class ModuleAlreadyLoaded(Exception): pass
 def add_module(module,init=True):
     if modules.get(module):
         raise ModuleAlreadyLoaded, "%s has already been loaded."%module
-    #try:
-    modules[module] = __import__(module,globals(),locals(),[],-1)
-    #except ImportError, e:
-    #    print e
-    #    return
-    #except Exception, e:
-    #    print "Error loading %s: %s"%(module, str(e))
-    #    return
+    try:
+        modules[module] = __import__(module,globals(),locals(),[],-1)
+    except ImportError, e:
+        logging.error("Error loading %s: %s" % (module, traceback.format_exc()))
+        return
+    except Exception, e:
+        logging.error("Error loading %s: %s" % (module, traceback.format_exc()))
+        return
     modules[module].add_hook = add_hook
     modules[module].remove_hook = remove_hook
 
