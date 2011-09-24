@@ -1,6 +1,8 @@
 
 from dynamic_core import *
 from random import randint, seed
+import gc
+
 
 def tag_choose(node,context):
     """<choose>stuff[or]stuff[|]stuff</choose> - Pick a random item from a list separated by [or] or [|] tags."""
@@ -86,11 +88,15 @@ def tag_random(node,context):
         article=context.vars[node.attribute]
     elif ":" in node.attribute:
         s = node.attribute.partition(":")
-        article = range(int(s[0]),int(s[2]))
+        return randint(int(s[0]), int(s[2]))
+        #article = range(int(s[0]),int(s[2]))
     else:
         article = eval(node.attribute,context.vars)
     if article:
-        return article[randint(0,len(article)-1)]
+        ret = article[randint(0,len(article)-1)]
+        article = None
+        gc.collect()
+        return ret
 
 def tag_try(node,context):
     """<try expression>fallback</try> OR <try>expression[else]fallback</try> - Return expression if it has a value, else return fallback."""

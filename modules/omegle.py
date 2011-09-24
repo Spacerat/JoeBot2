@@ -6,6 +6,9 @@ import threading
 import urllib2
 from time import sleep
 
+inpr = "+"
+outpr = "&"
+
 class Omg(threading.Thread):
     chats = {}
 
@@ -49,7 +52,7 @@ class SkypeMeggleEvents(omeglelib.EventHandler):
 
     def connected(self,chat,var):
         self.i.reply("OmegleBot: New chat started!")
-        self.i.reply("Prefix messages with + to send them to omegle.")
+        self.i.reply("Prefix messages with %s to send them to omegle."%inpr)
 
         if chat.named:
             sleep(1)
@@ -59,7 +62,7 @@ class SkypeMeggleEvents(omeglelib.EventHandler):
 
     def gotMessage(self,chat,message):
         message = message[0]
-        self.i.reply("~Stranger: "+message)
+        self.i.reply("%sStranger: %s"%(outpr, message))
 
     def typing(self,chat,var):
         print "Stranger is typing..."
@@ -104,9 +107,19 @@ def message_hook(text,interface):
         Omg.Chats = {}
     c = Omg.chats.get(interface.chat_name,None)
     if not c: return
-    if not text[0] in ("+"): return
     if c.chat.terminated: return
-    c.say(text[1:],interface.user_name)
+
+    if text[0] == inpr:
+        text = text[1:]
+    elif text[0:2] == inpr+outpr or text[0:2] == outpr+inpr:
+        text = text[2:]
+    else:
+        return
+
+    if text.startswith("Stranger:"):
+        text = text[9:]
+    print "Sending "+text
+    c.say(text,interface.user_name)
 
 def terminate():
     print "Terminating chats."
