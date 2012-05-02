@@ -11,3 +11,5 @@
 9. You'll probably see a bunch of errors spewed by various modules, specifically 'quote', 'lastfm'. You can't run these without some aditional set up, so just open the file in data/modules.txt and put # before the lines of all modules giving you trouble.
 10. If you want logging, you need to add a folder called "logs" in data. Otherwise, disable the logging module.
 11. The bot should now run nicely!
+
+(note, the bot only works on Windows for some reason! I can't figure out why.)
