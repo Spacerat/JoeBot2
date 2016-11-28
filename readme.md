@@ -13,3 +13,7 @@
 11. The bot should now run nicely!
 
 (note, the bot only works on Windows for some reason! I can't figure out why.)
+
+## Credit
+
+This bot was a fork of https://github.com/Katharine/KathBot3 by Katharine Berry. I adapted it for Skype and then built and maintined a suite of modifications and new modules.
