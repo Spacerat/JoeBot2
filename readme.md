@@ -1,3 +1,5 @@
+_note: this code has not been worked on since 2010. Recent commits dates are just the result of a history rewrite_
+
 # How to install, for complete and utter beginners to everything
 
 1. Get [Python 2.7+](http://python.org/download/) Install this first.
