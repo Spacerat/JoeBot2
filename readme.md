@@ -1,4 +1,4 @@
-_note: this code has not been worked on since 2010. Recent commits dates are just the result of a history rewrite_
+_note: this code has not been worked on since 2010. Recent commit dates are just the result of a history rewrite_
 
 # How to install, for complete and utter beginners to everything
 
